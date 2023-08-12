@@ -17,7 +17,7 @@
     * Risk ownwership
 
 ## Risk Register:
-<style>
+<!-- <style>
 table {
   border-collapse: collapse;
   width: 100%;
@@ -30,10 +30,7 @@ th, td {
   text-align: left;
 }
 
-th {
-  background-color: #00829a;
-}
-</style>
+</style> -->
 
 <table>
   <thead>
@@ -51,21 +48,21 @@ th {
       <td>Sensitive data becoming compromised</td>
       <td>Privacy of individuals becomes compromised, loss of trust in the organisation</td>
       <td>All members of the team are to sign a confidentiality agreement. All team members will also follow best workplace and coding practises to ensure the security of the data.</td>
-      <td style="background-color: red;">High</td>
+      <td bgcolor= "red">High</td>
     </tr>
     <tr>
       <td>2</td>
       <td>Loss of important information</td>
       <td>The organisation will lose key contacts, and will compromise the overall validity of the database.</td>
       <td>The team will conduct data migrations on a dummy database prior to the actual database migration. This will ensure that no data will be lost in the trial migrations as well as perfecting the method for the real migration.</td>
-      <td style="background-color: orange;">Medium</td>
+      <td bgcolor= "orange">Medium</td>
     </tr>
     <tr>
       <td>3</td>
       <td>The team fails to find a CRM platform which endorsed by the university</td>
       <td>WAMSI will have to pay for the services to use a different CRM platform.</td>
       <td>Members of the team will contact different faculties or sectors of the university in order to gain an insight into the current systems used and see if those systems can be leveraged by WAMSI.</td>
-      <td style="background-color: green;">Low</td>
+      <td bgcolor= "green">Low</td>
     </tr>
     <tr>
       <td>4</td>
