@@ -17,20 +17,6 @@
     * Risk ownwership
 
 ## Risk Register:
-<!-- <style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid black;
-}
-
-th, td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: left;
-}
-
-</style> -->
 
 <table>
   <thead>
@@ -66,21 +52,49 @@ th, td {
     </tr>
     <tr>
       <td>4</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Differences between the current microsoft access database and the new cloud based database</td>
+      <td>Due to differences between the two databases, data can be manipulated during the transfer and be stored differently once migrated, resulted in corrupted data.</td>
+      <td>The team will address this during the dummy run data migrations, as well as paying close attention to the data types and formats specified in the new database.</td>
+      <td bgcolor= "green">Low</td>
     </tr>
     <tr>
       <td>5</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Addressing data dependencies in the migration so that no relationships are compromised and no infomraton is lost</td>
+      <td>If some of the relationships between dependent data are compromised during the data transfer, this may alter some of the information in the database.</td>
+      <td>A current state analysis of the data and relevant dependencies will be performed and tested during the dummy runs to ensure that the data is not compromised.</td>
+      <td bgcolor= "orange">Medium</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Loss of functionality which was previously available in microsoft access</td>
+      <td>The key functionality of the current system is to generate reports to access availability of contractors / employees</td>
+      <td>The team will conduct research on current available database systems. We will look at improving this current functionality as well as adding other relevant functions.</td>
+      <td bgcolor= "green">Low</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Duplication of data</td>
+      <td>There is a chance of duplicating data during the data migration due to re-running of failed jobs. There are also duplicates existing in the current database.</td>
+      <td>Measures in the dummy run will be taken to ensure no data is duplicated. The team will create a summary of the data such as number of rows, columns, unique identifers etc to ensure that the migrated database matches the old database. As the team has been instructed to not delete any data, we will flag inputs which we believe are duplicates for the client so it is easier for them to sort the data.</td>
+      <td bgcolor= "green">Low</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Data governance, compliance and management issues</td>
+      <td>If the client is not fully aware of the process throughout the migration, there may be issues which the team would be unaware of such as various governance and compliance regualtions of the organisation</td>
+      <td>The team, specifically the allocated project manager, will maintain regular communication with representative from WAMSI to ensure that they are satisfied with the process. It is particuarly important for the team to notify WAMSI when it indends to make any major changes during the project.</td>
       <td></td>
     </tr>
   </tbody>
 </table>
 
+## General Principles for Risk Mitigation for Database Migration
+* Assess the tools the database vendor offers for migrations in order to make the process more streamlined.
+* Do a test run (or multiple) for the database migration.
+* Migrate at non-peak hours to ensure that if there are issues with the migration, there is minimal impact on the organisation.
+* Prepare a rolleback and recovery plan to reset the process if there are major bugs present.
+
 ## References
 * https://www.projectmanager.com/blog/guide-using-risk-register
+* https://www.montecarlodata.com/blog-data-migration-risks-checklist/
 
