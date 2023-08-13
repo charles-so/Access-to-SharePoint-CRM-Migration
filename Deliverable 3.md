@@ -85,6 +85,13 @@
       <td>The team, specifically the allocated project manager, will maintain regular communication with representative from WAMSI to ensure that they are satisfied with the process. It is particuarly important for the team to notify WAMSI when it indends to make any major changes during the project.</td>
       <td bgcolor= "green">Low</td>
     </tr>
+    <tr>
+      <td>9</td>
+      <td>Extended downtime risk</td>
+      <td>Occurs when the data migration process takes longer than expected, which will results in inconveniences for the relevant stakeholders (WAMSI)</td>
+      <td>The team will migrate at non-peak hours to limit the impact to WAMSI</td>
+      <td bgcolor= "green">Low</td>
+    </tr>
   </tbody>
 </table>
 
@@ -97,4 +104,5 @@
 ## References
 * https://www.projectmanager.com/blog/guide-using-risk-register
 * https://www.montecarlodata.com/blog-data-migration-risks-checklist/
+* https://icedq.com/data-migration/the-data-migration-process-and-the-potential-risks
 
