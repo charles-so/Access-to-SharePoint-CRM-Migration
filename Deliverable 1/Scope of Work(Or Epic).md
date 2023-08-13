@@ -1,4 +1,12 @@
-# Project Scope: WAMSI Marine Science Contacts Database Refresh
+# Project Title: WAMSI Marine Science Contacts Database Refresh
+
+## Project Scope (or Epic)
+- **Objective:** Migrate database into SharePoint
+- **Deliverables:** An updated database that works with SharePoint
+- **Timeline:** Project commences from week 2 (31st of July, 2023) till week 12 (16th of October, 2023)
+- **Stakeholders:** Team members and Client
+- **Constraints:** Security measures
+- **Success Criteria:** Having a Risk Register and running project acceptance tests
 
 ## Background
 - **Current State:** 3550 contacts, many redundant.
