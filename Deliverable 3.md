@@ -83,7 +83,7 @@
       <td>Data governance, compliance and management issues</td>
       <td>If the client is not fully aware of the process throughout the migration, there may be issues which the team would be unaware of such as various governance and compliance regualtions of the organisation</td>
       <td>The team, specifically the allocated project manager, will maintain regular communication with representative from WAMSI to ensure that they are satisfied with the process. It is particuarly important for the team to notify WAMSI when it indends to make any major changes during the project.</td>
-      <td></td>
+      <td bgcolor= "green">Low</td>
     </tr>
   </tbody>
 </table>
