@@ -22,7 +22,23 @@
 - Implement search and sorting functionality based on different contact attributes.
 - Perform thorough testing to ensure data accuracy and system stability.
 
-## Epic 2: Event Management and Scheduling
+
+## Epic 2: Access Control and Member Restriction
+
+### User Story 1: Ensure Authorized Access to Sensitive Information
+**As a WAMSI system administrator, I want to ensure that only authorized members can access and view sensitive project contact information.**
+
+**Acceptance Criteria:**
+- Access to the SharePoint database should be restricted to registered and authenticated users only.
+- Non-members should not be able to view any project contact information.
+
+**Tasks:**
+- Implement user registration and authentication: Integrate a secure authentication mechanism to allow only registered users to access the system.
+- Create an access control dashboard: Develop a dashboard where administrators can manage user roles and permissions.
+- Test user registration and authentication thoroughly to ensure security.
+- Test role-based access control with different scenarios to verify that users can only access appropriate data.
+
+## Epic 3: Event Management and Scheduling
 
 ### User Story 1: Create and Manage Events
 **As a WAMSI project manager, I want to create and manage events within the CRM SharePoint Database, so that I can organize and track various business activities.**
@@ -75,56 +91,3 @@
 - Implement data visualization tools for generating graphs and charts.
 - Develop filters and sorting options for the reports.
 - Integrate export functionality for reports in various formats.
-
-## Epic 3: Contact Interaction Tracking
-
-### User Story 2: Log Interactions with Project Contacts
-**As a WAMSI member, I want to log my interactions with project contacts so that I can keep track of communication and follow-ups.**
-
-**Acceptance Criteria:**
-- Users should be able to log interactions with project contacts, including calls, emails, meetings, and notes.
-- Each interaction log should include a timestamp, type of interaction, and description.
-- Interaction logs should be linked to the respective contact's profile.
-- Users should be able to view a history of interactions for each contact.
-
-**Tasks:**
-- Design the user interface for logging interactions and viewing interaction history.
-- Implement the functionality to log various types of interactions (calls, emails, meetings).
-- Create a database structure to store interaction logs and associate them with contacts.
-- Develop the ability to display interaction history on the contact's profile.
-- Implement the timestamp and details capture for each interaction log.
-- Test the interaction logging feature thoroughly to ensure accuracy and completeness.
-
-## Epic 4: Automated Follow-up Reminders
-
-### User Story 3: Receive Follow-up Reminders
-**As a WAMSI member, I want the system to remind me of scheduled follow-ups with project contacts so that I can maintain timely communication.**
-
-**Acceptance Criteria:**
-- Users should be able to set follow-up dates for contacts.
-- The system should send automated reminders to users for scheduled follow-ups.
-- Reminders should be sent via email or within the SharePoint platform.
-- Users should have the ability to mark follow-ups as completed.
-
-**Tasks:**
-1. Design the user interface for setting follow-up dates and managing reminders.
-2. Develop the functionality to schedule follow-up dates for contacts.
-3. Implement the automated reminder system using email notifications or in-platform alerts.
-4. Create a mechanism for users to mark follow-ups as completed and add notes if necessary.
-5. Test the reminder system to ensure timely and accurate notifications.
-
-## Epic 5: Access Control and Member Restriction
-
-### User Story 1: Ensure Authorized Access to Sensitive Information
-**As a WAMSI system administrator, I want to ensure that only authorized members can access and view sensitive project contact information.**
-
-**Acceptance Criteria:**
-- Access to the SharePoint database should be restricted to registered and authenticated users only.
-- Non-members should not be able to view any project contact information.
-
-**Tasks:**
-- Implement user registration and authentication: Integrate a secure authentication mechanism to allow only registered users to access the system.
-- Create an access control dashboard: Develop a dashboard where administrators can manage user roles and permissions.
-- Test user registration and authentication thoroughly to ensure security.
-- Test role-based access control with different scenarios to verify that users can only access appropriate data.
-
