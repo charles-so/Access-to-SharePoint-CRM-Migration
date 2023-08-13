@@ -1,3 +1,47 @@
+# Deliverable 2
+
+## Skills and Resources Audit
+- Undertake an audit of what skills and tools the team needs to successfully carry out the project, and therefore what you need to learn/acquire (and from where).
+
+## Relevant Team Members Skill Sets
+- Visual Studio Code
+- Python
+- Java
+- SQL
+  - SQLite
+  - Microsoft SQL Server
+  - SQL Server Management Studio (SSMS)
+  - SQL Server Data Tools (SSDT)
+- Relational Database Knowledge/ Management
+  - Implementation
+  - Analysis
+  - Design (Data Integrity)
+  - CRUD (Create, Read, Update, Delete)
+  - Entity Relationship Diagrams
+  - Relational Algebra
+  - Functional Dependencies
+  - MongoDB
+- Data Warehousing 
+  - Graph Database/ Modelling (Neo4j, Cypher)
+  - ETL (Extract, Transform, Load)
+  - Data Quality and Data Cleaning
+  - Modelling 
+      - OLTP (on-line transaction processing), OLAP (on-line analytical processing)
+  - Design
+    - Schema (Star, Snowflake, Fact Constellations)
+    - Fact Tables and Dimension Tables
+- Cybersecurity
+  - Risk management
+  - Cybersecurity domains
+  - Legal and ethical responsibilities
+- Agile Development 
+  - Git Theory - Github
+  - Testing (Selenium)
+    - Code inspection
+    - Formal verification
+    - Test cases
+    - Unit tests, Integration test, System test, Acceptance test
+
 ## Skills and Tools Required
 
 - SharePoint
@@ -9,6 +53,8 @@
     - Dynamics 365
     - Salesforce
     - HubSpot
+    - ipoint
+    - ServiceNow
   - Dataverse
 - Database schema knowledge
 - Security of databases
@@ -16,6 +62,7 @@
   - User Permissions
   - 2-Factor Authentication CRM feature
 - SQL/SQL Server
+- Microsoft BCS
 
 **Cloud-based CRM is customer relationship management software that is hosted on the CRM provider's servers and accessed by its customers through the internet.
 
