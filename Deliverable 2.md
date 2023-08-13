@@ -68,6 +68,18 @@
 
 **On-premise CRM, also known as on-site CRM, is purchased and installed on your company's server. Instead of paying a vendor to host all your CRM data, you store customer information on an on-site server that requires a license. Users can only access the data on a desktop application on company grounds
 
+## BCS
+Business Connectivity Services (BCS) provides the infrastructure that enables SharePoint to bring data from those external systems into a central system 
+
+https://learn.microsoft.com/en-us/sharepoint/dev/general-development/business-connectivity-services-in-sharepoint
+
+Allows CRM applications and Microsoft Office environment to be integrated with the enterprise applications and collaboration software and services they use. 
+BCS provides that capability in SharePoint.
+
+Bring data from an external SQL Server database, a traditional web service, a WCF service, proprietary systems, and OData services into SharePoint
+
+https://learn.microsoft.com/en-us/sharepoint/dev/general-development/get-started-with-business-connectivity-services-in-sharepoint
+
 ## Where to Learn
 
 ### CRMs
