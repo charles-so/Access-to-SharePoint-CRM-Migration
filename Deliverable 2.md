@@ -71,13 +71,13 @@
 
 ## Where to Learn
 
-#### <u> SharePoint Introduction </u>
+#### *SharePoint Introduction*
 https://www.avepoint.com/blog/sharepoint-hybrid/what-is-sharepoint
 
-#### <u> MS Access Introduction </u>
+#### *MS Access Introduction*
 https://support.microsoft.com/en-au/office/basic-tasks-for-an-access-desktop-database-5ddb8595-497c-4366-8327-ae79d2abdc9c
 
-#### <u> BCS </u>
+#### *BCS*
 Business Connectivity Services (BCS) provides the infrastructure that enables SharePoint to bring data from those external systems into a central system 
 
 https://learn.microsoft.com/en-us/sharepoint/dev/general-development/business-connectivity-services-in-sharepoint
@@ -92,7 +92,7 @@ https://learn.microsoft.com/en-us/sharepoint/dev/general-development/get-started
 ### CRMs
 CRM compatibility with SharePoint, CRM features & functionality
 
-#### <u> Dynamics 365 (Dynamics to SharePoint) </u>
+#### *Dynamics 365 (Dynamics to SharePoint)*
 
 - Dynamics 365 - Integrate with SharePoint
   - https://learn.microsoft.com/en-us/dynamics365/sales/connect-with-sharepoint?tabs=SE
@@ -107,7 +107,7 @@ CRM compatibility with SharePoint, CRM features & functionality
   - https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/create-own-actions?view=op-9-1
 
 
-#### <u> Dataverse (MS Access to Dynamics) </u>
+#### *Dataverse (MS Access to Dynamics)*
 
 - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro#dynamics-365-and-dataverse
 
@@ -124,7 +124,7 @@ CRM compatibility with SharePoint, CRM features & functionality
   - https://www.infinitygroup.co.uk/blog/benefits-of-migrating-access-databases-to-dataverse-for-microsoft-teams/
 
 
-#### <u> Salesforce </u>
+#### *Salesforce*
 - SharePoint Integration with Salesforce
   - https://www.connecting-software.com/blog/sharepoint-integration-with-salesforce/
 
@@ -141,7 +141,7 @@ https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/salesforce_fi
   - https://docs.devart.com/odbc/salesforce/access.htm
 
 
-#### <u> HubSpot </u>
+#### *HubSpot*
 - Integrating HubSpot with SharePoint
   - https://www.cloudfiles.io/blog/documents-in-hubspot-external-integrations-hubspot-sharepoint
 
@@ -152,7 +152,7 @@ https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/salesforce_fi
   - https://www.hubspot.com/products#sales-hub
 
 
-#### <u> ServiceNow (UWA) </u>
+#### *ServiceNow (UWA)*
 - Integrate ServiceNow and SharePoint using Automation App
   - https://www.youtube.com/watch?v=5WCGxatY9aM
 
@@ -165,7 +165,7 @@ https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/salesforce_fi
 - Features
   - https://www.31west.net/blog/what-are-the-top-five-features-of-servicenow/#ServiceNow%20Experience%20UI%20Builder
 
-#### <u> iPoint Solutions (UWA) </u>
+#### *iPoint Solutions (UWA)*
 - Integrations (SharePoint not included in the list)
   - https://ipointsolutions.net/manual/1/en/topic/settings-integrations
 
