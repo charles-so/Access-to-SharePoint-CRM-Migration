@@ -24,10 +24,19 @@
 ## 2. Milestones 
 
 ### Sprint 1
+- For Sprint One, the objective was to gather all the necessary knowledge to fulfill the project requirements.
+  - Comprehensive documentation was undertaken to ensure all information was recorded.
+
 
 ### Sprint 2
+- For Sprint Two, the aim is to migrate the "dummy" database and make sure it runs properly before conducting work on the real data.
+  - Testing will be conducted to identify possible issues, with measures taken to minimize any associated risks.
+
 
 ### Sprint 3
+- For Sprint Three, the focus is on finalizing the project.
+  - Efforts will be made to incorporate all functionalities required by the client.
+   - A thorough cleanup will be conducted to ensure everything is in order.
 
 
 ## 3. Stakeholder Analysis
@@ -55,7 +64,9 @@
 
 ## 5. New Database Requirements
 ### 5.1 Data Structure
-- Define the structure, including tables, relationships, and types.
+- The data structure will be aligned with the chosen CRM.
+ - Confirmation with the client will be required, along with access to the real database.
+
 
 ### 5.2 Functional Requirements
 * **Response Selection:** Ability to mark as attended or unattended.
@@ -74,7 +85,7 @@
 
 ## 7. Security Requirements
 * **Data Security:** Data will be handled securely by allowing only one team member to have a copy on their device for trial database migration.
-* **Risk Registration:** More detailed information regarding potential risks and mitigations is provided in the risk registration document.
+* **Risk Register:** More detailed information regarding potential risks and mitigations is provided in the risk register document.
 
 ## 8. Performance Requirements
 
@@ -98,7 +109,9 @@
 5. As a WAMSI project manager, I want to analyze the event and appointment data in the CRM SharePoint Database, to make informed decisions.
 
 ## 10. Constraints and Assumptions
-- List any known constraints, dependencies, or assumptions that could affect the project.
+- Seeking a CRM funded by the university will influence the overall cost of the project.
+  - It should be noted that the new cloud-based CRM may not have the functionalities required by the client.
+
 
 ## 11. Approval
 - Per the client's request, approval will be sought only when necessary. Meetings will be conducted via Teams, and the team leader is responsible for contacting the client.
@@ -108,5 +121,8 @@
 - Include any supplementary material, such as diagrams or references.
 
 ## Revision History
-- **Date:** 2023-08-14, 19:15
-  - **Description:** Initial version created.
+- V1.0 -  **Date:** 2023-08-14, 19:15
+  - **Note:** Initial version created.   
+- V2.0 - **Date and Time**: 2023-08-15 14:00
+  - **Note**: This is the finalized version after the group meeting.
+
