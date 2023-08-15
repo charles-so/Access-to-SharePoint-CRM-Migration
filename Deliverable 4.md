@@ -29,7 +29,7 @@ The input database used in this test is the dummy database.
 | Test A3   | Verifies that relationships between tables are maintained after the migration process. This test can be conducted using SQL. | The number of tables, foreign keys, primary keys in tables, table schema in the output database are similar to which of the input database. | | | |
 | Test A4   | Detects any missing data (phone numbers, contacts, jobs) in the output database and reports to the client. This test can be conducted using Python. | Contacts are filled out at maximum. | | | |
 
-## Test B – Date Management
+## Test B – Data Management
 Test B considers three separate tests to test the management of data using a CRM solution. The input database is the dummy database after cleaning and migration processes.
 
 Test B1 – Data CRUD, Test B2 – Data Grouping, Test B3 – Data Functionalities.
