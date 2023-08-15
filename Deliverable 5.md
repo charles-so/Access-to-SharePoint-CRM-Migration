@@ -91,3 +91,10 @@
 - Implement data visualization tools for generating graphs and charts.
 - Develop filters and sorting options for the reports.
 - Integrate export functionality for reports in various formats.
+
+
+<br>
+<br>
+
+# References
+1. [Behavior-Driven Development (BDD) Approach for User Story Writing](https://blog.ifs.com/2022/12/behavior-driven-development-bdd-approach-for-user-story-writing/)
