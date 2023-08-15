@@ -43,6 +43,7 @@
     - Unit tests, Integration test, System test, Acceptance test
 
 ## Skills and Tools Required
+- Github
 - SharePoint
 - MS Access
 - Database Migration from MS Access to CRM
@@ -55,8 +56,9 @@
     - iPoint Solutions
     - ServiceNow
   - Dataverse
-- Database schema knowledge
+- Database knowledge (Implementation, Analysis, Design)
 - Data Quality and Data Cleaning (Duplication, Changed contacts, etc.)
+- Test Cases/ Testing (Dummy Database)
 - Security of databases
   - Passwords
   - User Permissions
@@ -74,8 +76,12 @@
 #### *SharePoint Introduction*
 https://www.avepoint.com/blog/sharepoint-hybrid/what-is-sharepoint
 
+---
+
 #### *MS Access Introduction*
 https://support.microsoft.com/en-au/office/basic-tasks-for-an-access-desktop-database-5ddb8595-497c-4366-8327-ae79d2abdc9c
+
+---
 
 #### *BCS*
 Business Connectivity Services (BCS) provides the infrastructure that enables SharePoint to bring data from those external systems into a central system 
@@ -89,8 +95,12 @@ Bring data from an external SQL Server database, a traditional web service, a WC
 
 https://learn.microsoft.com/en-us/sharepoint/dev/general-development/get-started-with-business-connectivity-services-in-sharepoint
 
+---
+
 ### CRMs
 CRM compatibility with SharePoint, CRM features & functionality
+
+---
 
 #### *Dynamics 365 (Dynamics to SharePoint)*
 
@@ -106,10 +116,11 @@ CRM compatibility with SharePoint, CRM features & functionality
 - Actions - Add functionality on Dynamics
   - https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/create-own-actions?view=op-9-1
 
+---
 
 #### *Dataverse (MS Access to Dynamics)*
-
-- https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro#dynamics-365-and-dataverse
+- Dataverse Introduction
+  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro#dynamics-365-and-dataverse
 
 - Migrate MS Access to SharePoint
   - https://theitservice.co.uk/migrating-from-access-to-sharepoint/
@@ -123,6 +134,7 @@ CRM compatibility with SharePoint, CRM features & functionality
 - Why Migrate to Dataverse
   - https://www.infinitygroup.co.uk/blog/benefits-of-migrating-access-databases-to-dataverse-for-microsoft-teams/
 
+---
 
 #### *Salesforce*
 - SharePoint Integration with Salesforce
@@ -140,6 +152,7 @@ https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/salesforce_fi
 - Connecting Microsoft Access to Salesforce Using an ODBC Driver
   - https://docs.devart.com/odbc/salesforce/access.htm
 
+---
 
 #### *HubSpot*
 - Integrating HubSpot with SharePoint
@@ -151,6 +164,7 @@ https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/salesforce_fi
 - Add features
   - https://www.hubspot.com/products#sales-hub
 
+---
 
 #### *ServiceNow (UWA)*
 - Integrate ServiceNow and SharePoint using Automation App
@@ -164,6 +178,8 @@ https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/salesforce_fi
 
 - Features
   - https://www.31west.net/blog/what-are-the-top-five-features-of-servicenow/#ServiceNow%20Experience%20UI%20Builder
+
+---
 
 #### *iPoint Solutions (UWA)*
 - Integrations (SharePoint not included in the list)
