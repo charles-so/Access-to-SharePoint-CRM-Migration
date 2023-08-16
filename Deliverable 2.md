@@ -73,116 +73,72 @@
 **On-premise CRM, also known as on-site CRM, is purchased and installed on your company's server. Instead of paying a vendor to host all your CRM data, you store customer information on an on-site server that requires a license. Users can only access the data on a desktop application on company grounds.
 
 
-## Where to Learn
+## Summary of Tools
 
-#### *SharePoint Introduction*
-https://www.avepoint.com/blog/sharepoint-hybrid/what-is-sharepoint
+#### *SharePoint*
+SharePoint is a collaboration system that uses workflow applications and other web parts to enable a business team to work together. This tool also gives the company the ability to control access to information. The features of SharePoint are based around an intranet-based cross-collaboration experience.
 
 ---
 
-#### *MS Access Introduction*
-https://support.microsoft.com/en-au/office/basic-tasks-for-an-access-desktop-database-5ddb8595-497c-4366-8327-ae79d2abdc9c
+#### *MS Access*
+Access is a database management system. However, the system used by WAMSI is currently outdated and is incompatible with SharePoint.
 
 ---
 
 #### *BCS*
-Business Connectivity Services (BCS) provides the infrastructure that enables SharePoint to bring data from those external systems into a central system 
+Business Connectivity Services (BCS) provides the infrastructure that enables SharePoint to bring data from those external systems into a central system.
 
-https://learn.microsoft.com/en-us/sharepoint/dev/general-development/business-connectivity-services-in-sharepoint
-
-Allows CRM applications and Microsoft Office environment to be integrated with the enterprise applications and collaboration software and services they use. 
+Allows CRM applications and Microsoft Office environment to be integrated with the enterprise applications, collaboration software and services they use. 
 BCS provides that capability in SharePoint.
 
-Bring data from an external SQL Server database, a traditional web service, a WCF service, proprietary systems, and OData services into SharePoint
-
-https://learn.microsoft.com/en-us/sharepoint/dev/general-development/get-started-with-business-connectivity-services-in-sharepoint
+BCS brings data from an external SQL Server database, a traditional web service, a WCF service, proprietary systems, and OData services into SharePoint
 
 ---
 
-### CRMs
-CRM compatibility with SharePoint, CRM features & functionality
+## CRMs (Customer Relationship Management)
 
 
-#### *Dynamics 365 (Dynamics to SharePoint)*
+#### *Microsoft Dynamics 365*
 
-- Dynamics 365 - Integrate with SharePoint
-  - https://learn.microsoft.com/en-us/dynamics365/sales/connect-with-sharepoint?tabs=SE
+Dynamics 365 is a set of intelligent business applications that help run your business with AI-driven insights. This CRM is compatible with Sharepoint.
 
-- Set up Dynamics Integration with SharePoint Step-by-Step
-  - https://www.youtube.com/watch?v=ABpHzvcEc-A
+Top features include:
+* Customer Opportunity Management
+* Reports and sales analytics
+* Mobile CRM
+* Sales Forecasting
 
-- Migrate Access Database to Microsoft CRM
-  - https://www.empowerit.com.au/blog/10-reasons-to-migrate-your-access-database-to-microsoft-crm/
-
-- Actions - Add functionality on Dynamics
-  - https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/create-own-actions?view=op-9-1
-
----
-
-#### *Dataverse (MS Access to Dynamics)*
-- Dataverse Introduction
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro#dynamics-365-and-dataverse
-
-- Migrate MS Access to SharePoint
-  - https://theitservice.co.uk/migrating-from-access-to-sharepoint/
-
-- Migrate Access to Dataverse
-  - https://learn.microsoft.com/en-us/power-apps/maker/data-platform/migrate-access-to-dataverse
-
-- Dataverse SharePoint Integration
-  - https://learn.microsoft.com/en-us/power-pages/configure/manage-sharepoint-documents
-
-- Why Migrate to Dataverse
-  - https://www.infinitygroup.co.uk/blog/benefits-of-migrating-access-databases-to-dataverse-for-microsoft-teams/
+#### *Microsoft Dataverse*
+Dataverse lets you securely store and manage data that's used by business applications. Dataverse is a relational database hosted in Microsoft Dynamics which enhances the security of the data.
 
 ---
 
 #### *Salesforce*
-- SharePoint Integration with Salesforce
-  - https://www.connecting-software.com/blog/sharepoint-integration-with-salesforce/
+Salesforce is a popular CRM database platform used by over 150,000 companies. 
 
-- With Files Connect, Salesforce users can access, share, and search external data from systems like SharePoint
-  - https://help.salesforce.com/s/articleView?id=sf.collab_admin_files_connect.htm&type=5
-
-- The Files Connect Setup Process
-https://resources.docs.salesforce.com/latest/latest/en-us/sfdc/pdf/salesforce_files_connect_implementation.pdf
-
-- Salesforce features
-  - https://www.clariontech.com/platform-blog/salesforce-crm-features-and-benefits
-
-- Connecting Microsoft Access to Salesforce Using an ODBC Driver
-  - https://docs.devart.com/odbc/salesforce/access.htm
+Top featurs include:
+* Contact Management: Provides access to data of customers such as interaction history.
+* Opportunity Management: Provides a chance to view the activity timelines of your customers.
+* Dashboard components: Provides a visual representation of how your business is performing.
+* Salesforce app: Allows users to access the database at any time.
 
 ---
 
 #### *HubSpot*
-- Integrating HubSpot with SharePoint
-  - https://www.cloudfiles.io/blog/documents-in-hubspot-external-integrations-hubspot-sharepoint
-
-- Connecting Microsoft Access to HubSpot Using an ODBC Driver
-  - https://docs.devart.com/odbc/salesforce/access.htm
-
-- Add features
-  - https://www.hubspot.com/products#sales-hub
+HubSpot is a CRM tool that tracks business meetings and appointments, overall performance, and sales.
+Most notably, activities such as emails, meetings, and notes are sorted chronologically on a minimal dashboard.
+There is no direct integration with SharePoint, but there exists various solutions to link the services.
 
 ---
 
 #### *ServiceNow (UWA)*
-- Integrate ServiceNow and SharePoint using Automation App
-  - https://www.youtube.com/watch?v=5WCGxatY9aM
-
-- MS Access database into ServiceNow
-  - https://www.servicenow.com/community/itsm-forum/how-to-import-the-ms-access-database-data-into-servicenow-can/m-p/750780
-
-- Integrate ServiceNow and SharePoint using ServiceNow Integration Hub (Purchase Required)
-  - https://store.servicenow.com/sn_appstore_store.do#!/store/application/85b11b4c13dca78056193192e144b003/2.4.1?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%26q%3Dsharepoint&sl=sh
-
-- Features
-  - https://www.31west.net/blog/what-are-the-top-five-features-of-servicenow/#ServiceNow%20Experience%20UI%20Builder
+ServiceNow is a digital workflow manager that is utilized by UWA as a CRM service. 
+It provides functionality for the management of teams and contacts, event planning, and other automated functions to optimize navigation and user-relevant information.
+It can be integrated with SharePoint in numerous ways (Automation App, Integration Hub(paid), table imports), and combines workflows that allow for event and contact management.
 
 ---
 
 #### *iPoint Solutions (UWA)*
-- Integrations (SharePoint not included in the list)
-  - https://ipointsolutions.net/manual/1/en/topic/settings-integrations
+iPoint is a CRM solution that is also used by UWA and supports business tools such as: customer detail management, scheduling, financial analysis, database support and payment processors.
+It does not support integration with SharePoint, but a redirect on SharePoint to the iPoint CRM will allow for the access of the relevant CRM tools.
 
