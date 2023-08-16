@@ -14,7 +14,7 @@
     * Risk probability
     * Risk priority
     * Risk response
-    * Risk ownwership
+    * Risk ownership
 
 ## Risk Register:
 
@@ -106,7 +106,7 @@
 * Assess the tools the database vendor offers for migrations in order to make the process more streamlined.
 * Do a test run (or multiple) for the database migration.
 * Migrate at non-peak hours to ensure that if there are issues with the migration, there is minimal impact on the organisation.
-* Prepare a rolleback and recovery plan to reset the process if there are major bugs present.
+* Prepare a rollback and recovery plan to reset the process if there are major bugs present.
 
 ## References
 * https://www.projectmanager.com/blog/guide-using-risk-register
