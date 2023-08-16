@@ -3,15 +3,15 @@
 ### Description of Deliverable
 A scope of work: A general statement of what the project is to achieve.
 
-## 1. Introduction
-### 1.1 Purpose
+## Introduction
+### Purpose
 - **Purpose of the Project:** To update and migrate the existing database to a system that is more compatible with SharePoint.
 
-### 1.2 Scope
+### Scope
 - **New Database:** Will be more user-friendly for access on SharePoint and will include enhanced functionalities for ease of use.
 
 
-## 2. Milestones 
+## Milestones 
 
 ### Sprint 1
 - For Sprint One, the objective was to gather all the necessary knowledge to fulfill the project requirements.
@@ -29,14 +29,14 @@ A scope of work: A general statement of what the project is to achieve.
    - A thorough cleanup will be conducted to ensure everything is in order.
 
 
-## 3. Stakeholder Analysis
-### 3.1 Client  
+## Stakeholder Analysis
+### Client  
   Ms. Trish Wells: [trish.wells@wamsi.org.au](mailto:trish.wells@wamsi.org.au)  
   Dr. Luke Twomey: [luke.twomey@wamsi.org.au](mailto:luke.twomey@wamsi.org.au)
 
   ---
   
-### 3.2 Team
+### Team
 1. Sultan Alqemzi (22880665)
 2. Geraldine Chin (22972043)
 3. Finn O'Callaghan (22975893)
@@ -44,7 +44,7 @@ A scope of work: A general statement of what the project is to achieve.
 5. Charles So (23199336)
 6. Tyson Tran (22834433)
 
-## 4. Existing Database Analysis
+## Existing Database Analysis
 
 * **Usage:** Utilized for meetings, workshops, and events.
 * **Current State:** Contains 3,550 contacts; redundant data exists.
@@ -52,66 +52,210 @@ A scope of work: A general statement of what the project is to achieve.
 * **Limitations:** Users must manually verify each contact detail for attendees.
 * **Issues:** Potential existence of duplicate contacts.
 
-## 5. New Database Requirements
-### 5.1 Data Structure
+## New Database Requirements
+### Data Structure
 - The data structure will be aligned with the chosen CRM.
  - Confirmation with the client will be required, along with access to the real database.
 
 
-### 5.2 Functional Requirements
+### Functional Requirements
 * **Response Selection:** Ability to mark as attended or unattended.
 * **Availability Timing:** Scheduling and timing options.
 * **Report Production Capability:** Includes features for generating detailed reports.
 * **Contact-Specific Notes:** Allows for the inclusion of specific notes for individual contacts.
 
-### 5.3 Accessibility
+### Accessibility
 * **WAMSI's Team:** Comprised of 8 members.
 * **User Interaction with Database:** Users will engage with the database to ensure that all future conference goals are met.
 
-## 6. Migration Strategy
+## Migration Strategy
 * **Dummy Database Creation:** A dummy database will be created in MS Access to simulate the existing data, ensuring that the migration process proceeds smoothly.
 * **Flagging System:** This system will assist the client in identifying the information that requires cleaning or updating.
 
 
-## 7. Security Requirements
+## Security Requirements
 * **Data Security:** Data will be handled securely by allowing only one team member to have a copy on their device for trial database migration.
 * **Risk Register:** More detailed information regarding potential risks and mitigations is provided in the risk register document.
 
-## 8. Performance Requirements
+## Performance Requirements
 
-### 8.1 Response Times
+### Response Times
 - Queries must return results within 2 seconds for up to 3000 records.
 - Updating a record must complete within 1 second.
 
-### 8.2 Concurrency Support
+### Concurrency Support
 - The system must support at least 8 concurrent users.
 - Locking mechanisms must be implemented to prevent conflicting updates.
 
-### 8.3 Scalability
+### Scalability
 - The system must handle a 50% increase in user volume over the next two years.
 - The database must support the growth of up to 1TB of data without performance issues.
 
-## 9. Scenarios
+## Scenarios
 1. As a WAMSI project manager, I want to effectively manage and track interactions with project contacts.
 2. As a WAMSI system administrator, I want to ensure that only authorized members can access and view sensitive project contact information.
 3. As a WAMSI project manager, I want to create and manage events within the CRM SharePoint Database, so that I can organize and track various business activities.
 4. As a WAMSI member, I want to schedule appointments with clients through the CRM SharePoint Database, to manage my meetings efficiently.
 5. As a WAMSI project manager, I want to analyze the event and appointment data in the CRM SharePoint Database, to make informed decisions.
 
-## 10. Constraints and Assumptions
+## Constraints and Assumptions
 - Seeking a CRM funded by the university will influence the overall cost of the project.
   - It should be noted that the new cloud-based CRM may not have the functionalities required by the client.
 
 
-## 11. Approval
+## Approval
 - Per the client's request, approval will be sought only when necessary. Meetings will be conducted via Teams, and the team leader is responsible for contacting the client.
+
+<br><br>
 
 # Deliverable 2
 
 ### Description of Deliverable
 Skills and Resouces Audit: This includes the skills of the team, upskilling required and tools needed to complete the project.
 
+## Skills and Resources Audit
+- Undertake an audit of what skills and tools the team needs to successfully carry out the project, and therefore what you need to learn/acquire (and from where).
 
+## Relevant Team Members Skill Sets
+- Visual Studio Code
+- Python
+- Java
+- SQL
+  - SQLite
+  - Microsoft SQL Server
+  - SQL Server Management Studio (SSMS)
+  - SQL Server Data Tools (SSDT)
+- Relational Database Knowledge/ Management
+  - Implementation
+  - Analysis
+  - Design (Data Integrity)
+  - CRUD (Create, Read, Update, Delete)
+  - Entity Relationship Diagrams
+  - Relational Algebra
+  - Functional Dependencies
+  - MongoDB
+- Data Warehousing 
+  - Graph Database/ Modelling (Neo4j, Cypher)
+  - ETL (Extract, Transform, Load)
+  - Data Quality and Data Cleaning
+  - Modelling 
+      - OLTP (on-line transaction processing), OLAP (on-line analytical processing)
+  - Design
+    - Schema (Star, Snowflake, Fact Constellations)
+    - Fact Tables and Dimension Tables
+- Cybersecurity
+  - Risk management
+  - Cybersecurity domains
+  - Legal and ethical responsibilities
+- Agile Development 
+  - Git Theory - Github
+  - Testing (Selenium)
+    - Code inspection
+    - Formal verification
+    - Test cases
+    - Unit tests, Integration test, System test, Acceptance test
+
+## Skills and Tools Required*
+- Github
+- SharePoint
+- MS Access
+- Database Migration from MS Access to CRM
+- Database/CRM Integration on SharePoint
+- CRMs
+  - On Premise, Cloud based (On Demand)**
+    - Dynamics 365
+    - Salesforce
+    - HubSpot
+    - iPoint Solutions
+    - ServiceNow
+  - Dataverse
+- Database knowledge (Implementation, Analysis, Design)
+- Data Quality and Data Cleaning (Duplication, Changed contacts, etc.)
+- Test Cases/ Testing (Dummy Database)
+- Security of databases
+  - Passwords
+  - User Permissions
+  - 2-Factor Authentication CRM feature
+- SQL/SQL Server
+- Microsoft BCS
+
+*These are the skills and tools the team have researched to be relevant and suitable for the project. However, we are still waiting for confirmation from the client/ the university for a suitable CRM/system.
+
+**Cloud-based CRM is customer relationship management software that is hosted on the CRM provider's servers and accessed by its customers through the internet.
+
+**On-premise CRM, also known as on-site CRM, is purchased and installed on your company's server. Instead of paying a vendor to host all your CRM data, you store customer information on an on-site server that requires a license. Users can only access the data on a desktop application on company grounds.
+
+
+## Summary of Tools
+
+#### *SharePoint*
+SharePoint is a collaboration system that uses workflow applications and other web parts to enable a business team to work together. This tool also gives the company the ability to control access to information. The features of SharePoint are based around an intranet-based cross-collaboration experience.
+
+---
+
+#### *MS Access*
+Access is a database management system. However, the system used by WAMSI is currently outdated and is incompatible with SharePoint.
+
+---
+
+#### *BCS*
+Business Connectivity Services (BCS) provides the infrastructure that enables SharePoint to bring data from those external systems into a central system.
+
+Allows CRM applications and Microsoft Office environment to be integrated with the enterprise applications, collaboration software and services they use. 
+BCS provides that capability in SharePoint.
+
+BCS brings data from an external SQL Server database, a traditional web service, a WCF service, proprietary systems, and OData services into SharePoint
+
+---
+
+## CRMs (Customer Relationship Management)
+
+
+#### *Microsoft Dynamics 365*
+
+Dynamics 365 is a set of intelligent business applications that help run your business with AI-driven insights. This CRM is compatible with Sharepoint.
+
+Top features include:
+* Customer Opportunity Management
+* Reports and sales analytics
+* Mobile CRM
+* Sales Forecasting
+
+#### *Microsoft Dataverse*
+Dataverse lets you securely store and manage data that's used by business applications. Dataverse is a relational database hosted in Microsoft Dynamics which enhances the security of the data.
+
+---
+
+#### *Salesforce*
+Salesforce is a popular CRM database platform used by over 150,000 companies. 
+
+Top featurs include:
+* Contact Management: Provides access to data of customers such as interaction history.
+* Opportunity Management: Provides a chance to view the activity timelines of your customers.
+* Dashboard components: Provides a visual representation of how your business is performing.
+* Salesforce app: Allows users to access the database at any time.
+
+---
+
+#### *HubSpot*
+HubSpot is a CRM tool that tracks business meetings and appointments, overall performance, and sales.
+Most notably, activities such as emails, meetings, and notes are sorted chronologically on a minimal dashboard.
+There is no direct integration with SharePoint, but there exists various solutions to link the services.
+
+---
+
+#### *ServiceNow (UWA)*
+ServiceNow is a digital workflow manager that is utilized by UWA as a CRM service. 
+It provides functionality for the management of teams and contacts, event planning, and other automated functions to optimize navigation and user-relevant information.
+It can be integrated with SharePoint in numerous ways (Automation App, Integration Hub(paid), table imports), and combines workflows that allow for event and contact management.
+
+---
+
+#### *iPoint Solutions (UWA)*
+iPoint is a CRM solution that is also used by UWA and supports business tools such as: customer detail management, scheduling, financial analysis, database support and payment processors.
+It does not support integration with SharePoint, but a redirect on SharePoint to the iPoint CRM will allow for the access of the relevant CRM tools.
+
+<br><br>
 
 # Deliverable 3
 
@@ -121,19 +265,6 @@ A Risk Register: includes possible risks, the impact the risks will have on the 
 ## Requirements of Deliverable 3
 * Create a risk register.
 * Discussion about possible risks to the project and how the team will avoid or mitigate those risks.
-
-## How to Create a Risk Register
-* A risk register is a risk management tool that's used to identify potential risks that could affect the execution of a project plan.
-* What is included in a risk register:
-    * Risk Identification ID
-    * Risk Description
-    * Risk breakdown structure
-    * Risk categories
-    * Risk analysis
-    * Risk probability
-    * Risk priority
-    * Risk response
-    * Risk ownership
 
 ## Risk Register:
 
@@ -227,6 +358,8 @@ A Risk Register: includes possible risks, the impact the risks will have on the 
 * Migrate at non-peak hours to ensure that if there are issues with the migration, there is minimal impact on the organisation.
 * Prepare a rollback and recovery plan to reset the process if there are major bugs present.
 
+<br><br>
+
 # Deliverable 4
 
 ### Description of Deliverable
@@ -277,6 +410,7 @@ Test D1 – Event modifications, Test D2 – Event Storage and Management, Test 
 | Test D2   | Verifies that events are stored in the database for future references. | Events are stored and searchable based on title, date, and type. Events should include information of invited attendants, invited non-attendants and non-invited attendants etc. | | | |
 | Test D3   | Verifies that invitations and notifications are sent to related contacts through their email and displayed in a calendar view. | Contacts should have an option of attending or not. Contacts interface should display the event invitations, date, title and get updated if the events are changed. | | | |
 
+<br><br>
 
 # Deliverable 5
 
