@@ -117,12 +117,11 @@
 - Per the client's request, approval will be sought only when necessary. Meetings will be conducted via Teams, and the team leader is responsible for contacting the client.
 
 
-## Appendices (if applicable)
-- Include any supplementary material, such as diagrams or references.
 
 ## Revision History
 - V1.0 -  **Date:** 2023-08-14, 19:15
   - **Note:** Initial version created.   
-- V2.0 - **Date and Time**: 2023-08-15 14:00
-  - **Note**: This is the finalized version after the group meeting.
-
+- V2.0 - **Date:**: 2023-08-15, 14:00
+  - **Note:** This is the finalized version after the group meeting.
+- V3.0 - **Date:** 2023-08-15, 14:45
+  - **Note:** Turned into PDF.
