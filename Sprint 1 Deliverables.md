@@ -1,4 +1,4 @@
-# CITS3200 Team 29 - Deliverable 1
+# Deliverable 1
 
 ### Description of Deliverable
 A scope of work: A general statement of what the project is to achieve.
@@ -181,9 +181,9 @@ Skills and Resouces Audit: This includes the skills of the team, upskilling requ
 
 These are the skills and tools the team have researched to be relevant and suitable for the project. However, we are still waiting for confirmation from the client/ the university for a suitable CRM/system.
 
-**Cloud-based CRM is customer relationship management software that is hosted on the CRM provider's servers and accessed by its customers through the internet.
+Cloud-based CRM is customer relationship management software that is hosted on the CRM provider's servers and accessed by its customers through the internet.
 
-**On-premise CRM, also known as on-site CRM, is purchased and installed on your company's server. Instead of paying a vendor to host all your CRM data, you store customer information on an on-site server that requires a license. Users can only access the data on a desktop application on company grounds.
+On-premise CRM, also known as on-site CRM, is purchased and installed on your company's server. Instead of paying a vendor to host all your CRM data, you store customer information on an on-site server that requires a license. Users can only access the data on a desktop application on company grounds.
 
 
 ## Summary of Tools
