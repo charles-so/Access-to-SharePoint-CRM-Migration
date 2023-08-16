@@ -1,4 +1,4 @@
-# Deliverable 1
+# CITS3200 Team 29 - Deliverable 1
 
 ### Description of Deliverable
 A scope of work: A general statement of what the project is to achieve.
@@ -234,10 +234,6 @@ Project Acceptance Tests: Tests which will be conducted by the team to ensure th
 
 ## Objectives
 This document discusses the testing steps and the results for a data migration project. The whole testing will consider using a dummy database to avoid unexpected modifications to the original data and to secure the data privacy.
-
-## Document References
-1. [CITS3200-Team-29 Scope of Work](#)
-2. [CITS3200-Team-29 Project Backlog - User Stories](#)
 
 ## Test A – Data Quality
 Test A considers four separate tests to check the data quality after data extraction, cleaning, and migration process: Test A1 – Data Lossless, Test A2 – Data Redundancy, Test A3 – Data relationships, Test A4 – Data Missing.
