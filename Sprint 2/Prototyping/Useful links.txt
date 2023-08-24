@@ -1,0 +1,23 @@
+MS Access migration
+1. https://learn.microsoft.com/en-us/sharepoint/technical-reference/database-types-and-descriptions
+2. https://www.accessrepairnrecovery.com/blog/access-sharepoint-data-migration
+3. https://learn.microsoft.com/en-us/sharepoint/administration/best-practices-for-sql-server-in-a-sharepoint-server-farm
+4. https://learn.microsoft.com/en-us/sharepoint/administration/add-a-content-database
+
+Dynamics CRM
+5. https://dynamics.microsoft.com/en-au/crm/#sort=relevancy&f:@version=[Microsoft%20Dynamics%20CRM]
+6. https://learn.microsoft.com/en-us/previous-versions/troubleshoot/dynamics/crm/integration-crm-sharepoint-online
+7. https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/basics/import-accounts-leads-other-data?view=op-9-1
+
+SharePoint as CRM
+8. Use SharePoint templates for external lists
+9. Use excel(SharePoint) with Dynamics CRM: https://www.cdata.com/drivers/dynamicscrm/excel/
+10. Add a UI on remote Excel document
+
+Viable options:
+Migrate database to cloud based database
+i. MS Access to Azure SQL server
+--> create external SharePoint list and import data from database
+ii. create excel document from MS Access and add a SharePoint dashboard to access and modify data
+--> excel doc can be used in the future to import dynamics365 crm
+--> add own macros that can be installed and used
