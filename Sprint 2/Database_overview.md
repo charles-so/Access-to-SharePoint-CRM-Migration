@@ -24,7 +24,7 @@ This is a summary and analysis of the microsoft access database used by WAMSI
     * Micro enables users to fileter contact records by Surname, Company, or First Nambe based on user input or selections in combo boxes.
     * Additionally, it allows users to click on a contact to open a related "Contacts" form with specific filtering criteria. 
 * Form_Groups_List
-    * The macro manages the clsoign of the current form with consideration for unsaved changes and provides a warning message when the "Group" field is changed, indicating potential consequences for associated people. 
+    * The macro manages the closing of the current form with consideration for unsaved changes and provides a warning message when the "Group" field is changed, indicating potential consequences for associated people. 
     * the "Group_GotFocus" subroutine doesn't have any specific functionality in the provied code snippet. 
 * Form_Help
     * The first subroutine esures that unsaved changes are not lost when closing a form, while the second subroutine enables certain controls and change the text color of specific controls upon a double-click event.
@@ -46,4 +46,13 @@ This is a summary and analysis of the microsoft access database used by WAMSI
 ## Summary of required functionality based on Macros
 * Sending emails from the CRM database.
 * Filtering capabilities. 
+* Export and email contacts
+* Error handling 
+* Database needs to be editable
+* Handling clipboard information for contact information
+* Email groups as a collective
+* Closing of the current form with consideration for unsaved changes and provides a warning message when the "Group" field is changed.
+* Generating RTF and PDF documents
+* Previewing reports
+* Exporting data to excel
 * 
