@@ -55,4 +55,3 @@ This is a summary and analysis of the microsoft access database used by WAMSI
 * Generating RTF and PDF documents
 * Previewing reports
 * Exporting data to excel
-* 
