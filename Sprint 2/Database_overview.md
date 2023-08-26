@@ -1,6 +1,187 @@
 # Microsoft Access Database Current State
 This is a summary and analysis of the microsoft access database used by WAMSI
 
+## Overview of the Schema
+![Schema design](image.png)
+
+## Summary of Tables
+### Circulation
+<table>
+    <thead>
+        <tr>
+            <th>Field Name</th>
+            <th>Data Type</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ID</td>
+            <td>AutoNumber</td>
+            <td>Primary key of the table</td>
+        </tr>
+        <tr>
+            <td>Circulate</td>
+            <td>Short Text</td>
+            <td>Unsure as to what this means</td>
+        </tr>
+    </tbody>
+</table>
+
+### Email
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Data Type</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ID</td>
+            <td>AutoNumber</td>
+            <td>Primary Key?</td>
+        </tr>
+        <tr>
+            <td>Surname</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Company</td>
+            <td>Short text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Group</td>
+            <td>Number</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Circulate</td>
+            <td>Number</td>
+            <td>**</td>
+        </tr>
+    </tbody>
+</table>
+
+### ACT Database Contacts
+<table>
+    <thead>
+        <tr>
+            <th>Field Name</th>
+            <th>Data Type</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ID</td>
+            <td>AutoNumber</td>
+            <td>Primary Key?</td>
+        </tr>
+        <tr>
+            <td>Address 1</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Address 2</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Address 3</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Address 4</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>City 2</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Company</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Department</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Fax Phone</td>
+            <td>Short Text</td>
+            <td>**</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
 ## Macros 
 * Form_About
     * This macro is designed to close the currently active form or report in Microsoft Access.
