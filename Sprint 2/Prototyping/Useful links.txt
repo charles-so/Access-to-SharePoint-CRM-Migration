@@ -21,3 +21,13 @@ i. MS Access to Azure SQL server
 ii. create excel document from MS Access and add a SharePoint dashboard to access and modify data
 --> excel doc can be used in the future to import dynamics365 crm
 --> add own macros that can be installed and used
+
+Dataverse on SharePoint
+- creating app from Dataverse table:
+https://www.youtube.com/watch?v=NzB0eT_0TcA
+- adding apps to SharePoint page
+- https://support.shortpoint.com/support/solutions/articles/1000284175-add-your-first-powerapps-application-to-a-sharepoint-page
+- https://www.youtube.com/watch?v=k6LM6IItZYM
+- https://www.youtube.com/watch?v=YOJCNpd4FSU
+- https://support.microsoft.com/en-au/office/add-an-app-to-a-site-ef9c0dbd-7fe1-4715-a1b0-fe3bc81317cb
+- https://www.youtube.com/watch?v=ZOTTWW68I9M
