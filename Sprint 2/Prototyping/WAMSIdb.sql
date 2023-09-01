@@ -4,15 +4,19 @@
 
   Creates the sql database for the contacts
 
-  Modified Date:	2 August 2023
-  Contributors:	Ann Roy
+  Modified Date:	2 Sep 2023
+  Contributors:		Ann Roy, Charles So
 
-  Modified:
+  Modified 31 Aug 2023:
   - added line to use the right database
   - set nvarchar to 50
   - added condition checks for safer codes
-*/
 
+  Modified 2 Sep 2023:
+  - addded 'ACT Database Contacts' table
+  - added table relationships
+  - Altering table contraints (NOT NULLS, [bit]>[char] 
+  */
 
 /*
  * HOW TO RUN THIS SCRIPT:
@@ -62,7 +66,7 @@ IF OBJECT_ID('dbo.Diets', 'U') IS NOT NULL
 DROP TABLE dbo.Diets
 GO
 CREATE TABLE [dbo].[Diets](
-	[DietID] [int] IDENTITY(1,1) NOT NULL,
+	[DietID] [int] IDENTITY(1,1) PRIMARY KEY,
 	[Diet] [nvarchar](50) NOT NULL
 )ON [PRIMARY];
 GO
@@ -71,55 +75,31 @@ IF OBJECT_ID('dbo.GroupsList', 'U') IS NOT NULL
 DROP TABLE dbo.GroupsList
 GO
 CREATE TABLE [dbo].[GroupsList](
-	[GroupID] [int] IDENTITY(1,1) NOT NULL,
+	[GroupID] [int] IDENTITY(1,1) PRIMARY KEY,
 	[Group] [nvarchar](50) NOT NULL
 )ON [PRIMARY];
 GO
 
-IF OBJECT_ID('dbo.Reports', 'U') IS NOT NULL
-DROP TABLE dbo.Reports
-GO
-CREATE TABLE [dbo].[Reports](
-	[ReportsID] [int] IDENTITY(1,1) NOT NULL,
-	[Days] [nvarchar](50) NOT NULL,
-	[Events] [int] NOT NULL,
-	[Accepted] [bit] NOT NULL,
-	[Attended] [bit],
-	[DNA] [bit],
-	[Speaker] [bit] NOT NULL,
-	[Response] [int],
-	[Diet] [int] NOT NULL
-) ON [PRIMARY];
-GO
-
-IF OBJECT_ID('dbo.Responses', 'U') IS NOT NULL
-DROP TABLE dbo.Responses
-GO
-CREATE TABLE [dbo].[Responses](
-	[ResponseID] [int] IDENTITY(1,1) NOT NULL,
-	[Response] [nvarchar](50) NOT NULL
-) ON [PRIMARY];
-GO
 
 IF OBJECT_ID('dbo.Attendees', 'U') IS NOT NULL
 DROP TABLE dbo.Attendees
 GO
 CREATE TABLE [dbo].[Attendees](
-	[AttendeeID] [int] IDENTITY(1,1) NOT NULL,
-	[EventName] [nvarchar](50) NOT NULL,
-	[Accepted] [bit] NOT NULL,
-	[Declined] [bit] NOT NULL,
+	[AttendeeID] [int] IDENTITY(1,1) PRIMARY KEY,
+	[EventName] [nvarchar](50), /*redundant*/
+	[Accepted] [bit],
+	[Declined] [bit],
 	[Attended] [bit],
-	[Speaker] [bit] NOT NULL,
-	[Subject] [nvarchar](50) NOT NULL,
+	[Speaker] [bit],
+	[Subject] [nvarchar](50),
 	[Presentation] [bit],
-	[Day] [datetime] NOT NULL,
-	[Diet] [int] NOT NULL,
-	[StartTalkTime] [datetime],
-	[EndTalkTime] [datetime],
-	[ID] [int] UNIQUE NOT NULL,
+	[Day] [datetime],/*redundant*/
+	[DietID] [int] NOT NULL,
+	[StartTalkTime] [datetime],/*redundant*/
+	[EndTalkTime] [datetime],/*redundant*/
+	[ID] [int],
 	[EventsID] [int] NOT NULL,
-	[Extra] [bit]
+	[Extra] [bit],
 )ON [PRIMARY];
 GO
 
@@ -127,30 +107,111 @@ IF OBJECT_ID('dbo.Events', 'U') IS NOT NULL
 DROP TABLE dbo.Events
 GO
 CREATE TABLE [dbo].[Events](
-	[EventsID] [int] IDENTITY(1,1) NOT NULL,
-	[EventName] [nvarchar](255) NOT NULL,
-	[EventDescription] [nvarchar](50) NOT NULL,
-	[Status] [nvarchar](50) NOT NULL,
-	[Location] [nvarchar](50) NOT NULL,
-	[AvailableSpaces] [int] NOT NULL,
+	[EventsID] [int] IDENTITY(1,1) PRIMARY KEY,
+	[EventName] [nvarchar](100) NOT NULL,
+	[EventDescription] [nvarchar](100),
+	[Status] [nvarchar](50),/*use?*/
+	[Location] [nvarchar](100),
+	[AvailableSpaces] [int],
 	[StartDate] [datetime],
 	[EndDate] [datetime],
-	[StartTime] [datetime],
-	[MorningBreak] [datetime],
-	[LunchBreak] [datetime],
-	[EndTime] [datetime],
-	[Sundowner] [datetime],
-	[Caterer] [nvarchar](50) NOT NULL,
-	[CatererTel] [nvarchar](50) NOT NULL,
-	[CatererEmail] [nvarchar](50) NOT NULL,
-	[Notes] [nvarchar](50),
-	[ID] [int] UNIQUE NOT NULL
+	[StartTime] [time],
+	[MorningBreak] [time],
+	[LunchBreak] [time],
+	[EndTime] [time],
+	[Sundowner] [time],
+	[Caterer] [nvarchar](50),
+	[CatererTel] [nvarchar](50),
+	[CatererEmail] [nvarchar](50),
+	[Notes] [nvarchar](255),
+	[ID] [int] /*redundant*/ 
 )ON [PRIMARY];
 GO
 
+
+
+IF OBJECT_ID('dbo.ACTDatabaseContacts', 'U') IS NOT NULL
+DROP TABLE dbo.Events
+GO
+CREATE TABLE [dbo].[ACTDatabaseContacts](
+	[ID] [int] IDENTITY(1,1) PRIMARY KEY,
+	[Address1] [nvarchar](50),
+	[Address2] [nvarchar](50),
+	[Address3] [nvarchar](50),
+	[Address4] [nvarchar](50),
+	[City] [nvarchar](50),
+	[City2] [nvarchar](50),
+	[Company] [nvarchar](50) NOT NULL,
+	[Country] [nvarchar](50),
+	[Department] [nvarchar](50),
+	[Email] [nvarchar](50),
+	[FaxPhone] [nvarchar](50),
+	[GroupID] [int],
+	[Circulate] [int],/*redundant*/ 
+	[Alt] [bit],
+	[AltPhone] [int],
+	[ID/Status] [nvarchar](50),
+	[MobilePhone] [int],
+	[NamePrefix] [nvarchar](50),
+	[PersonalEmail] [nvarchar](50),
+	[Phone] [nvarchar](50),
+	[Postcode] [int],
+	[Postcode2] [int],
+	[Spouse] [nvarchar](50),
+	[State] [nvarchar](50),
+	[State2] [nvarchar](50),
+	[Surname] [nvarchar](50),
+	[Title] [nvarchar](50),
+	[Website] [nvarchar](50),
+	[Notes] [nvarchar](255),
+	[PA] [int]
+)ON [PRIMARY];
+GO
+
+
+-- ******************************************************
+-- Adding Relationships
+-- ******************************************************
+
 /*
-* Need to add script section for:
-* 	'ACT Database Contacts'
-*	Table relationships
-*	Bulk insert of data (dummy/real)
+* ACTContacts Groups reference
 */
+ALTER TABLE [dbo].[ACTDatabaseContacts]
+   ADD CONSTRAINT Contact_Group FOREIGN KEY (GroupID)
+      REFERENCES [dbo].[GroupsList] (GroupID)
+      ON DELETE SET NULL
+      ON UPDATE CASCADE
+;
+
+/*
+* Attendee contact reference
+*/
+ALTER TABLE [dbo].[Attendees]
+   ADD CONSTRAINT Attendee_Contact FOREIGN KEY (ID)
+      REFERENCES [dbo].[ACTDatabaseContacts] (ID)
+      ON DELETE SET NULL
+      ON UPDATE CASCADE
+;
+
+/*
+* Attendee event reference
+*/
+ALTER TABLE [dbo].[Attendees]
+   ADD CONSTRAINT Attendee_Event FOREIGN KEY (EventsID)
+      REFERENCES  [dbo].[Events] (EventsID)
+      ON DELETE CASCADE
+      ON UPDATE CASCADE
+;
+
+/*
+* Attendee diet reference
+*/
+ALTER TABLE [dbo].[Attendees]
+   ADD CONSTRAINT Attendee_Diet FOREIGN KEY (DietID)
+      REFERENCES  [dbo].[Diets] (DietID)
+      ON DELETE NO ACTION
+      ON UPDATE CASCADE
+;
+
+
+
