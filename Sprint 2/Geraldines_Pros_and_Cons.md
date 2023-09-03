@@ -60,9 +60,9 @@ Cons:
     </thead>
     <tbody>
         <tr>
-            <td>Payment</td>
-            <td>Yes</td>
-            <td>Yes</td>
+            <td>Payment Required</td>
+            <td>Yes even with Office 365</td>
+            <td>No for Office 365 subscription</td>
         </tr>
         <tr>
             <td>Microsoft services integration</td>
@@ -82,7 +82,22 @@ Cons:
         <tr>
             <td>Microsoft support</td>
             <td>Yes</td>
+            <td>No, limited</td>
+        </tr>
+        <tr>
+            <td>Secure</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>ERP Functionalities</td>
+            <td>Yes</td>
             <td>No</td>
+        </tr>
+        <tr>
+            <td>Customisation</td>
+            <td>Yes but some needs payment</td>
+            <td>Yes but more difficult</td>
         </tr>
     </tbody>
 </table>
