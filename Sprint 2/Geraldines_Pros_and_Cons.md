@@ -36,7 +36,7 @@ Pros:
 - Does not require a deep understanding of database terminology and structure.
 - Work with mobile, web or desktop apps.
 - Able to import and export data easily.
-- Is able to easily connect to Microsoft services = build business applications and analytics.
+- Is able to easily connect to Microsoft services like Power BI and Power Apps = build business applications and analytics.
 - Scalable data storage.
 - Able to extend the capability of Dataverse using plug-ins. 
 - Business intelligence features such as data visualisation and paginated reports.
@@ -49,3 +49,40 @@ Cons:
 - Additional storage needs to be purchased. Storage varies depending on the subscription and plan.
 
 
+# Table Comparison
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Dynamics 365</th>
+            <th>Dataverse</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Payment</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Microsoft services integration</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Scalability</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Cloud-based</td>
+            <td>Yes</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Microsoft support</td>
+            <td>Yes</td>
+            <td>No</td>
+        </tr>
+    </tbody>
+</table>
