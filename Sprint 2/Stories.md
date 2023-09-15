@@ -10,9 +10,9 @@
 * All the functionalities should be able to be accessed through the front end of the application, so WAMSI employees should not need to veiw the database schema. 
 
 **Tasks:**
-* Due to current access restrictions, the group is unsure about the current location of the database. We are addressing this by doing a datamigration to excel until the IT department reposnds.
-* If we achieve Azure SQL access, then we can easily migrate the data from excel to Azure.
-* While the data is migrated to excel, we can start building out the front end capabiltities. 
+* Due to current access restrictions, the group is unsure about the current location of the database. We are addressing this by doing a data migration to excel and then uploading this data directly to dataverse so we can work on the front end of the CRM while we wait for IT to inform us on the location of the database server.
+* While the data is migrated to excel, we can start building out the front end capabiltities.
+* If we are granted Azure SQL access, then we can integrate the Power App we design into the server. 
 
 ### User Story 2: The CRM should be user friendly and intuitive. 
 
@@ -32,9 +32,9 @@
 
 **Acceptance Criteria**
 * The CRM user interface should be available on SharePoint. 
-* Employees should be able to access the CRM on Sharepoint with ease, with minimal steps required. 
+* Employees should be able to access the CRM on Sharepoint with ease and minimul steps (1 click access). 
 
 **Tasks:**
 * Build a connection between the Power App and Sharepoint. 
-* The group could leverage connectors such as the Microsoft Graph API, which can upload Power Apps directly to OneDrive.
+* The group could leverage connectors such as the Microsoft Graph API, which can upload Power Apps directly to SharePoint.
 
