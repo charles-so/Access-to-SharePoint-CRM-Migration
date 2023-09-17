@@ -146,6 +146,7 @@ CREATE TABLE [dbo].[ACTDatabaseContacts](
 	[Department] [nvarchar](50),
 	[Email] [nvarchar](50),
 	[FaxPhone] [nvarchar](50),
+	[Firstname] [nvarchar](50),
 	[GroupID] [int],
 	[Circulate] [int],/*redundant*/ 
 	[Alt] [bit],
