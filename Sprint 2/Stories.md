@@ -1,40 +1,48 @@
-## Epic: Migration of CRM to Sharepoint
+## Epic: Implementation of functionalities into the CRM.
 
-### User Story 1: Secure and Sustainable Database.
+### User Story 1: Scheduling appointments with customers, contractors and other relevant partys. 
+**As a WAMSI employee, I want to schedule appointments with marine science contractors or customers throught the SharePoint CRM.**
 
-**As a WAMSI employee who interacts with the database I want to only use the user interface / front end version of the product. As someone who has limited knowledge of database schemas I don't want to have to look at what the data looks like.**
-
-**Acceptance Criteria**
-* The design of the database schema and back end capabilties should be robust and cater for the growth of the database. 
-* The user interface design should be done so no maintenance is required by employees of WAMSI.
-* All the functionalities should be able to be accessed through the front end of the application, so WAMSI employees should not need to veiw the database schema. 
-
-**Tasks:**
-* Due to current access restrictions, the group is unsure about the current location of the database. We are addressing this by doing a data migration to excel and then uploading this data directly to dataverse so we can work on the front end of the CRM while we wait for IT to inform us on the location of the database server.
-* While the data is migrated to excel, we can start building out the front end capabiltities.
-* If we are granted Azure SQL access, then we can integrate the Power App we design into the server. 
-
-### User Story 2: The CRM should be user friendly and intuitive. 
-
-**As a WAMSI employee, I want the CRM to be easy to use reliable. This will make my job easier, and makes it easier to teach other employees how to access the database.**
-
-**Acceptance Criteria**
-* The user interface should be clear and easy to use. 
-* Core functionalities are integrated into the CRM, such as connection with emails and report generation.
-
-**Tasks**
-* Use Power Apps to implement front end functionality. 
-* Utilize the Microsoft Office macros to incorporate the clients needs into the Power App.
-
-### User Story 3: The database application should be accessible in SharePoint. 
-
-**Much of WAMSI's content is being migrated to SharePoint. As a WAMSI employee, I want a centralised location where I can access all relevant resources in one place, including the CRM database.**
-
-**Acceptance Criteria**
-* The CRM user interface should be available on SharePoint. 
-* Employees should be able to access the CRM on Sharepoint with ease and minimul steps (1 click access). 
+**Acceptance Criteria:**
+- Users should be able to propose multiple time slots to clients for appointments.
+- The system should notify users when clients accept or propose alternative time slots.
+- Appointments should automatically sync with users' personal calendars (e.g., Outlook).
+- Users should be able to reschedule or cancel appointments.
+- The system should provide a clear overview of upcoming appointments.
+- Users should be able to track the status of each appointment (confirmed, pending, cancelled).
 
 **Tasks:**
-* Build a connection between the Power App and Sharepoint. 
-* The group could leverage connectors such as the Microsoft Graph API, which can upload Power Apps directly to SharePoint.
+- Incorporate the appointment scheduling interface into the Power App.
+- Implement the proposed time slots functionality and notification system.
+- Integrate calendar synchronization with external tools (e.g., Outlook integration).
+- Develop the rescheduling and cancellation features.
+- Create a dashboard to display upcoming appointments and their status.
+
+### User Story 2: Viewing availability of contacts in the CRM to assist with event scheduling.
+**As a WAMSI employee, I want to view the availability of contacts in the CRM so I have an idea of when to organise meettings.**
+
+**Acceptance Criteria:**
+- The CRM should have an option to update the availabilities of contacts.
+- This availability shouldn't be specific, and will mainly represent general work commitments of contacts.
+- The availability of contacts should be highlighted when users of the CRM are sending meeting invites.
+
+**Tasks:**
+- Update the database schema to allow for the addition of the availability information. 
+- Integrate this information into relevant external tools such as the Outlook calander so this informaiton can be displayed when scheduling meetings. 
+- Based on the people needed in a meeting and their preferred availability, provide recomendations to the WAMSI employee as to when a meeting could be scheduled. This could be done by implementing a "When2meet" graphic in outlook.
+
+### User Story 3: Analyze Event and Appointment Data.
+**As a WAMSI project manager, I want to analyze the event and appointment data in the CRM SharePoint Database, to make informed decisions.**
+
+**Acceptance Criteria:**
+- The system should generate reports showing the distribution of event types over time.
+- Managers should be able to filter and visualize event data by different criteria (e.g., type, date, contact).
+- Reports should be exportable in formats like PDF or Excel.
+- Data should be presented in easy-to-understand graphs and charts.
+
+**Tasks:**
+- Design report templates for different types of analyses.
+- Implement data visualization tools for generating graphs and charts.
+- Develop filters and sorting options for the reports.
+- Integrate export functionality for reports in various formats.
 
