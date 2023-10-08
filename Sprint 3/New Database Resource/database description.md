@@ -1,4 +1,5 @@
 ## Database Effectiveness Summary
+![Database](./Database-New.png)
 
 ### Centralized Data
 - **What**: `EventAttendance` serves as the central hub for key metrics.
