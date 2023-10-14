@@ -20,8 +20,9 @@
 
 ## Documentation
 * [ ] User manual
-* [ ] Set up instructions
-* [ ] (not urgent) Retrospective
+* [x] Set up instructions
+* [x] (not urgent) Retrospective
 ### Dataverse
 * [ ] ACT Contacts Database tables needs be uploaded
+* [ ] Need to change the name of the tables referenced in the app so the location isn't part of the variable name
 * [ ] Change the Outlook calender "" text
