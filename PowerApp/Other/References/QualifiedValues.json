@@ -1,0 +1,67 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr68c_actdatabasecontact_forms",
+      "Namespace": "ACTDatabaseContacts (Forms)",
+      "Values": {
+        "Information": "65eacee5-e36f-4f8f-93cd-cfa21e08d075"
+      }
+    },
+    {
+      "Kind": "default.cds_cr68c_attendeetable_forms",
+      "Namespace": "AttendeeTables (Forms)",
+      "Values": {
+        "Information": "b04520c9-1b36-4c70-89ed-f7e78020427a"
+      }
+    },
+    {
+      "Kind": "default.cds_cr68c_diettable_forms",
+      "Namespace": "DietTables (Forms)",
+      "Values": {
+        "Information": "a73282eb-4f38-449b-9ae8-f0d33053bb32"
+      }
+    },
+    {
+      "Kind": "default.cds_cr68c_grouplist_forms",
+      "Namespace": "GroupLists (Forms)",
+      "Values": {
+        "Information": "1b41b5a3-b3a0-4862-8c94-e5c7cc9124ef"
+      }
+    },
+    {
+      "Kind": "default.cds_cr68c_event_forms",
+      "Namespace": "Events (Forms)",
+      "Values": {
+        "Information": "c9b0cd7c-6c1e-4adf-a40a-fdec09b8e2a1"
+      }
+    },
+    {
+      "Kind": "default.cds_businessunit_forms",
+      "Namespace": "Business Units (Forms)",
+      "Values": {
+        "Business Unit Hierarchy Form": "405b16b6-126a-4117-a4e0-33f0caf0c7a2",
+        "Information": "ca8dfced-338c-43b2-b212-83745e257c28"
+      }
+    },
+    {
+      "Kind": "default.cds_team_forms",
+      "Namespace": "Teams (Forms)",
+      "Values": {
+        "Information": "f5cfab6a-d4c2-4519-b68f-6e7485432e29",
+        "Team": "7ba7fac1-1418-4335-935f-f7f8dfd73fcc",
+        "Team form – Business": "4aabf594-b30a-490d-bf97-89c67c6777fe"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "Users (Forms)",
+      "Values": {
+        "Application User": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "Information": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "User": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "User form – Business": "c2413504-7eb2-4c59-a087-95d819866114",
+        "User Hierarchy Tile Form": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452"
+      }
+    }
+  ]
+}

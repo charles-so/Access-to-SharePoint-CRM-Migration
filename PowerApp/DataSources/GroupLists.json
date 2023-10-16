@@ -1,0 +1,95 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr68c_grouplists",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr68c_grouplist",
+    "Name": "GroupLists",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr68c_group": "Group",
+      "cr68c_groupid": "GroupID",
+      "cr68c_grouplist_AsyncOperations": "System Jobs",
+      "cr68c_grouplist_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr68c_grouplist_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr68c_grouplist_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr68c_grouplist_ProcessSession": "Process Sessions",
+      "cr68c_grouplist_SyncErrors": "Sync Errors",
+      "cr68c_grouplistid": "GroupList",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "GroupLists",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "GroupLists (Views)",
+    "Name": "_cr68c_grouplist_views",
+    "RelatedEntityName": "GroupLists",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "196ce01a-b7b0-4a5c-a8f0-b2808c5bce96": "GroupList Advanced Find View",
+      "712efd01-dfef-494f-aaa0-bae0eccd1955": "GroupList Lookup View",
+      "a4975575-8957-42cf-a305-9710c1b3f27c": "GroupList Associated View",
+      "ae2eeb68-12fe-43ee-8fae-2536fdb0d318": "Active GroupLists",
+      "e8b2bfed-7843-4fad-8e38-9848a4232bab": "Inactive GroupLists"
+    }
+  },
+  {
+    "DisplayName": "Status (GroupLists)",
+    "Name": "cr68c_grouplist_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "GroupLists"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "GroupLists",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (GroupLists)",
+    "Name": "cr68c_grouplist_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "GroupLists"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "GroupLists",
+    "Type": "OptionSetInfo"
+  }
+]

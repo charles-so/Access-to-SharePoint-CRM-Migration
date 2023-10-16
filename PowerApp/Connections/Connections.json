@@ -1,0 +1,80 @@
+{
+  "313aef6f-54c7-4c38-b246-dfbe35718141": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "OneDrive for Business",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1656/1.0.1656.3432/onedriveforbusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "71641bc7-33d8-4929-8deb-daa09544cc56"
+    ],
+    "id": "313aef6f-54c7-4c38-b246-dfbe35718141"
+  },
+  "71641bc7-33d8-4929-8deb-daa09544cc56": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1653/1.0.1653.3403/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "313aef6f-54c7-4c38-b246-dfbe35718141": {
+          "value": "shared_onedriveforbusiness"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "611ad6c5-b93d-44d7-936a-ee776933a9b0"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_onedriveforbusiness": {
+          "value": "313aef6f-54c7-4c38-b246-dfbe35718141"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "611ad6c5-b93d-44d7-936a-ee776933a9b0"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ExportToExcel"
+    ],
+    "dependencies": {
+      "shared_onedriveforbusiness": "313aef6f-54c7-4c38-b246-dfbe35718141"
+    },
+    "dependents": [],
+    "id": "71641bc7-33d8-4929-8deb-daa09544cc56"
+  },
+  "71b5bd8d-4195-48ea-bb1a-0a1575edbb79": {
+    "appActions": [
+      "CalendarGetTables",
+      "V4CalendarPostItem",
+      "CalendarGetItems"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/henryorsborn/partial-builds/asev3migrations-with-resourceTemplate/1.0.1653.3414/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "71b5bd8d-4195-48ea-bb1a-0a1575edbb79"
+  }
+}

@@ -1,0 +1,231 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr68c_attendeetables",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr68c_attendeetable",
+    "MaxGetRowsCount": 500,
+    "Name": "AttendeeTables",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr68c_accepted": "Accepted",
+      "cr68c_attended": "Attended",
+      "cr68c_attendeeid": "AttendeeID",
+      "cr68c_attendeetable_AsyncOperations": "System Jobs",
+      "cr68c_attendeetable_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr68c_attendeetable_DuplicateBaseRecord": "Duplicate Records (cr68c_attendeetable_DuplicateBaseRecord)",
+      "cr68c_attendeetable_DuplicateMatchingRecord": "Duplicate Records (cr68c_attendeetable_DuplicateMatchingRecord)",
+      "cr68c_attendeetable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr68c_attendeetable_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr68c_attendeetable_ProcessSession": "Process Sessions",
+      "cr68c_attendeetable_SyncErrors": "Sync Errors",
+      "cr68c_attendeetableid": "AttendeeTable",
+      "cr68c_day": "Day",
+      "cr68c_declined": "Declined",
+      "cr68c_diet": "Diet",
+      "cr68c_endtalktime": "EndTalkTime",
+      "cr68c_eventname": "EventName",
+      "cr68c_eventsid": "EventsID",
+      "cr68c_extra": "Extra",
+      "cr68c_id": "ID",
+      "cr68c_presentation": "Presentation",
+      "cr68c_speaker": "Speaker",
+      "cr68c_starttalktime": "StartTalkTime",
+      "cr68c_subject": "Subject",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "AttendeeTables",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "AttendeeTables (Views)",
+    "Name": "_cr68c_attendeetable_views",
+    "RelatedEntityName": "AttendeeTables",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2ada9f35-6ce7-4205-a0cd-0cfcf5ba1622": "AttendeeTable Advanced Find View",
+      "59d81526-2049-4d39-a80d-98536b71e66d": "AttendeeTable Associated View",
+      "64fbe7f0-7898-4e7c-ad03-9cf3b567a609": "AttendeeTable Lookup View",
+      "d5cfa710-19a8-406d-9a82-3e2fb3217cab": "Active AttendeeTables",
+      "f845376e-a96b-47d0-83f5-ca47598196b4": "Inactive AttendeeTables"
+    }
+  },
+  {
+    "DisplayName": "Accepted (AttendeeTables)",
+    "Name": "cr68c_attendeetable_cr68c_accepted",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr68c_accepted",
+        "OptionSetReferenceEntityName": "AttendeeTables"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr68c_accepted",
+    "RelatedEntityName": "AttendeeTables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Attended (AttendeeTables)",
+    "Name": "cr68c_attendeetable_cr68c_attended",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr68c_attended",
+        "OptionSetReferenceEntityName": "AttendeeTables"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr68c_attended",
+    "RelatedEntityName": "AttendeeTables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Declined (AttendeeTables)",
+    "Name": "cr68c_attendeetable_cr68c_declined",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr68c_declined",
+        "OptionSetReferenceEntityName": "AttendeeTables"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr68c_declined",
+    "RelatedEntityName": "AttendeeTables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Extra (AttendeeTables)",
+    "Name": "cr68c_attendeetable_cr68c_extra",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr68c_extra",
+        "OptionSetReferenceEntityName": "AttendeeTables"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr68c_extra",
+    "RelatedEntityName": "AttendeeTables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Presentation (AttendeeTables)",
+    "Name": "cr68c_attendeetable_cr68c_presentation",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr68c_presentation",
+        "OptionSetReferenceEntityName": "AttendeeTables"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr68c_presentation",
+    "RelatedEntityName": "AttendeeTables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Speaker (AttendeeTables)",
+    "Name": "cr68c_attendeetable_cr68c_speaker",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr68c_speaker",
+        "OptionSetReferenceEntityName": "AttendeeTables"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "cr68c_speaker",
+    "RelatedEntityName": "AttendeeTables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (AttendeeTables)",
+    "Name": "cr68c_attendeetable_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "AttendeeTables"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "AttendeeTables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (AttendeeTables)",
+    "Name": "cr68c_attendeetable_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "AttendeeTables"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "AttendeeTables",
+    "Type": "OptionSetInfo"
+  }
+]

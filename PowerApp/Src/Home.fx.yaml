@@ -1,0 +1,404 @@
+"Home As screen.'autoLayout_HeaderFooter_ver1.0'":
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    ScreenContainer3 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =16
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer4_2 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(0, 120, 212, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            ZIndex: =1
+
+            Icon11_1 As icon.BackArrow:
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                DisabledColor: =RGBA(225, 223, 221, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =50
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(16, 110, 190, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.BackArrow
+                OnSelect: =Back(ScreenTransition.Fade)
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =RGBA(16, 110, 190, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                ZIndex: =1
+
+            Label8_1 As label:
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FillPortions: =1
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Size: =16
+                Text: ="WAMSI - Home"
+                ZIndex: =2
+
+            Icon1 As icon.Home:
+                AlignInContainer: =AlignInContainer.End
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                DisabledColor: =RGBA(225, 223, 221, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =40
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(16, 110, 190, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.Home
+                OnSelect: =Navigate(Home,ScreenTransition.Fade)
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =RGBA(16, 110, 190, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                ZIndex: =3
+
+        MainContainer2 As groupContainer.verticalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(255, 255, 255, 1)
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            ZIndex: =2
+
+            Container3 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =20
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                PaddingBottom: =30
+                PaddingLeft: =30
+                PaddingRight: =30
+                PaddingTop: =30
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =2
+
+                Label6 As label:
+                    Align: =Align.Center
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(50, 49, 48, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =36
+                    Size: =16
+                    Text: ="Databases"
+                    ZIndex: =1
+
+                Button1_4 As button:
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(242, 242, 241, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(16, 110, 190, 1)
+                    OnSelect: =Navigate(Contact,ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(16, 110, 190, 1)
+                    Size: =15
+                    Text: ="Contacts"
+                    Width: =250
+                    ZIndex: =6
+
+                Button1_5 As button:
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(242, 242, 241, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(16, 110, 190, 1)
+                    OnSelect: =Navigate(Event,ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(16, 110, 190, 1)
+                    Size: =15
+                    Text: ="Events"
+                    Width: =250
+                    ZIndex: =7
+
+                Button1_7 As button:
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(242, 242, 241, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(16, 110, 190, 1)
+                    OnSelect: =Navigate(GroupList,ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(16, 110, 190, 1)
+                    Size: =15
+                    Text: ="Group Lists"
+                    Width: =250
+                    ZIndex: =9
+
+                Button1_8 As button:
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(242, 242, 241, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(16, 110, 190, 1)
+                    OnSelect: =Navigate(Diet,ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(16, 110, 190, 1)
+                    Size: =15
+                    Text: ="Diets"
+                    Width: =250
+                    ZIndex: =10
+
+                Button1_6 As button:
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(242, 242, 241, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(16, 110, 190, 1)
+                    OnSelect: =Navigate(Attendee,ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(16, 110, 190, 1)
+                    Size: =15
+                    Text: ="Attendees"
+                    Width: =250
+                    ZIndex: =11
+
+            Container3_1 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutGap: =20
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                PaddingBottom: =30
+                PaddingLeft: =30
+                PaddingRight: =30
+                PaddingTop: =30
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =4
+
+                Label6_1 As label:
+                    Align: =Align.Center
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(50, 49, 48, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =36
+                    Size: =16
+                    Text: ="Functions"
+                    ZIndex: =1
+
+                Button1_10 As button:
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(242, 242, 241, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(16, 110, 190, 1)
+                    OnSelect: =Navigate('Attendee Manager',ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(16, 110, 190, 1)
+                    Size: =15
+                    Text: ="Attendees Manager"
+                    Width: =250
+                    ZIndex: =7
+
+                Button1_11 As button:
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(242, 242, 241, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(16, 110, 190, 1)
+                    OnSelect: =Navigate('Event Manager',ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(16, 110, 190, 1)
+                    Size: =15
+                    Text: ="Event Manager"
+                    Width: =250
+                    ZIndex: =8
+
+                Button1_14 As button:
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(242, 242, 241, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(16, 110, 190, 1)
+                    OnSelect: =Navigate('Email Manager',ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(16, 110, 190, 1)
+                    Size: =15
+                    Text: ="Email Manager"
+                    Width: =250
+                    ZIndex: =9
+
+                Button1_19 As button:
+                    AlignInContainer: =AlignInContainer.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    DisabledFill: =RGBA(242, 242, 241, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =50
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(255, 255, 255, 1)
+                    HoverFill: =RGBA(16, 110, 190, 1)
+                    OnSelect: =Navigate(Reports,ScreenTransition.Fade)
+                    PressedBorderColor: =RGBA(0, 69, 120, 1)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(16, 110, 190, 1)
+                    Size: =15
+                    Text: ="Report Generator"
+                    Width: =250
+                    ZIndex: =10
+
+    Image11 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =634
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='WAMSI logo'
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Transparency: =0.9
+        Width: =1326
+        X: =18
+        Y: =114
+        ZIndex: =2
+

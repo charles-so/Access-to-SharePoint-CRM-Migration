@@ -1,0 +1,127 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr68c_actdatabasecontacts",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr68c_actdatabasecontact",
+    "MaxGetRowsCount": 500,
+    "Name": "ACTDatabaseContacts",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr68c_actdatabasecontact_AsyncOperations": "System Jobs",
+      "cr68c_actdatabasecontact_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr68c_actdatabasecontact_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr68c_actdatabasecontact_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr68c_actdatabasecontact_ProcessSession": "Process Sessions",
+      "cr68c_actdatabasecontact_SyncErrors": "Sync Errors",
+      "cr68c_actdatabasecontactid": "ACTDatabaseContact",
+      "cr68c_address1": "Address1",
+      "cr68c_address2": "Address2",
+      "cr68c_address3": "Address3",
+      "cr68c_address4": "Address4",
+      "cr68c_alt": "Alt",
+      "cr68c_altphone": "AltPhone",
+      "cr68c_circulate": "Circulate",
+      "cr68c_city": "City",
+      "cr68c_city2": "City2",
+      "cr68c_company": "Company",
+      "cr68c_country": "Country",
+      "cr68c_department": "Department",
+      "cr68c_email": "Email",
+      "cr68c_faxphone": "FaxPhone",
+      "cr68c_firstname": "Firstname",
+      "cr68c_group": "Group",
+      "cr68c_groupid": "GroupID",
+      "cr68c_id": "ID",
+      "cr68c_idstatus": "ID/Status",
+      "cr68c_mobilephone": "MobilePhone",
+      "cr68c_nameprefix": "NamePrefix",
+      "cr68c_notes": "Notes",
+      "cr68c_pa": "PA",
+      "cr68c_personalemail": "PersonalEmail",
+      "cr68c_phone": "Phone",
+      "cr68c_postcode": "Postcode",
+      "cr68c_postcode2": "Postcode2",
+      "cr68c_spouse": "Spouse",
+      "cr68c_state": "State",
+      "cr68c_state2": "State2",
+      "cr68c_surname": "Surname",
+      "cr68c_title": "Title",
+      "cr68c_website": "Website",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "ACTDatabaseContacts",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "ACTDatabaseContacts (Views)",
+    "Name": "_cr68c_actdatabasecontact_views",
+    "RelatedEntityName": "ACTDatabaseContacts",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2c6f447a-c5eb-4e09-933f-f88456d880f2": "ACTDatabaseContact Associated View",
+      "76d5e1b1-d9c7-43e4-a089-77fd9a50ebe5": "ACTDatabaseContact Lookup View",
+      "96fc2be7-8298-404b-84a4-2b34a3472b49": "Inactive ACTDatabaseContacts",
+      "bc4fd446-4dfd-44e7-b8a4-937ec4ea50a8": "ACTDatabaseContact Advanced Find View",
+      "f980585c-0d3d-4305-9f16-0effb99e4ad7": "Active ACTDatabaseContacts"
+    }
+  },
+  {
+    "DisplayName": "Status (ACTDatabaseContacts)",
+    "Name": "cr68c_actdatabasecontact_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "ACTDatabaseContacts"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "ACTDatabaseContacts",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (ACTDatabaseContacts)",
+    "Name": "cr68c_actdatabasecontact_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "ACTDatabaseContacts"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "ACTDatabaseContacts",
+    "Type": "OptionSetInfo"
+  }
+]

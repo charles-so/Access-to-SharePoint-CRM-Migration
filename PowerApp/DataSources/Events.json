@@ -1,0 +1,112 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr68c_events",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr68c_event",
+    "MaxGetRowsCount": 500,
+    "Name": "Events",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr68c_availablespaces": "AvailableSpaces",
+      "cr68c_caterer": "Caterer",
+      "cr68c_catereremail": "CatererEmail",
+      "cr68c_caterertel": "CatererTel",
+      "cr68c_enddate": "EndDate",
+      "cr68c_endtime": "EndTime",
+      "cr68c_event_AsyncOperations": "System Jobs",
+      "cr68c_event_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr68c_event_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr68c_event_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr68c_event_ProcessSession": "Process Sessions",
+      "cr68c_event_SyncErrors": "Sync Errors",
+      "cr68c_eventdescription": "EventDescription",
+      "cr68c_eventid": "Event",
+      "cr68c_eventname": "EventName",
+      "cr68c_eventsid": "EventsID",
+      "cr68c_id": "ID",
+      "cr68c_location": "Location",
+      "cr68c_lunchbreak": "LunchBreak",
+      "cr68c_morningbreak": "MorningBreak",
+      "cr68c_notes": "Notes",
+      "cr68c_startdate": "StartDate",
+      "cr68c_starttime": "StartTime",
+      "cr68c_status": "Status (cr68c_status)",
+      "cr68c_sundowner": "Sundowner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status (statecode)",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Events",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Events (Views)",
+    "Name": "_cr68c_event_views",
+    "RelatedEntityName": "Events",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "21095bb5-153e-4718-8be2-859497279de7": "Active Events",
+      "5e9e0a8e-7514-42e0-8152-2da9a65529cc": "Event Associated View",
+      "86dcab2c-f9a0-41e9-abf3-5c5b8027a99f": "Event Advanced Find View",
+      "b3da2810-291e-4e15-bbce-191d395e7b10": "Inactive Events",
+      "de81100f-31b3-428c-9f83-cf8e057e347e": "Event Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Events)",
+    "Name": "cr68c_event_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Events"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Events",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Events)",
+    "Name": "cr68c_event_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Events"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Events",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,398 @@
+"'Email event invite' As screen":
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    ComboBox4_1 As combobox:
+        BorderColor: =RGBA(245, 245, 245, 1)
+        ChevronBackground: =RGBA(245, 245, 245, 1)
+        ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+        ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+        ChevronFill: =RGBA(50, 49, 48, 1)
+        ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+        ChevronHoverFill: =RGBA(50, 49, 48, 1)
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        DisplayFields: =["cr68c_eventname"]
+        Fill: =RGBA(245, 245, 245, 1)
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(245, 245, 245, 1)
+        Items: =Events
+        OnChange: =Set(gen_atten, false);Set(email_changed,false)
+        PressedBorderColor: =RGBA(16, 110, 190, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(0, 120, 212, 1)
+        SearchFields: =["cr68c_eventname"]
+        SearchItems: =Search(Events,ComboBox4_1.SearchText,"cr68c_eventname")
+        SelectionFill: =RGBA(0, 120, 212, 1)
+        SelectMultiple: =false
+        Size: =13
+        X: =468
+        Y: =204
+        ZIndex: =1
+
+    TextInput2_1 As text:
+        BorderColor: =RGBA(245, 245, 245, 1)
+        BorderThickness: =2
+        Color: =RGBA(50, 49, 48, 1)
+        Default: =ComboBox4_1.Selected.EventName
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisabledFill: =RGBA(242, 242, 241, 0)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =RGBA(16, 110, 190, 1)
+        HoverColor: =RGBA(50, 49, 48, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(0, 120, 212, 1)
+        PressedColor: =RGBA(50, 49, 48, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        X: =468
+        Y: =296
+        ZIndex: =2
+
+    Label3_1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(50, 49, 48, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: ="Subject/Event Name"
+        Width: =179
+        X: =468
+        Y: =256
+        ZIndex: =3
+
+    Button3_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(56, 96, 178, 1)
+        FontWeight: =FontWeight.Semibold
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
+        OnSelect: |
+            =Office365Outlook.V4CalendarPostItem(
+                LookUp(Office365Outlook.CalendarGetTables().value, DisplayName = "Calendar").Name,
+                TextInput2_1.Text,
+                DateAdd(DateTimeValue(DatePicker1_2.SelectedDate & " " & TextCanvas2.Text & ":" & TextCanvas1.Text), TimeZoneOffset(), TimeUnit.Minutes),
+                DateAdd(DateTimeValue(DatePicker1_2.SelectedDate & " " & If(Hour(ComboBox4_1.Selected.EndTime)<10,Concatenate("0",Text(Hour(ComboBox4_1.Selected.EndTime))),Text(Hour(ComboBox4_1.Selected.EndTime))) & ":" & If(Minute(ComboBox4_1.Selected.EndTime)<10,Concatenate("0",Text(Minute(ComboBox4_1.Selected.EndTime))),Text(Minute(ComboBox4_1.Selected.EndTime)))), TimeZoneOffset(), TimeUnit.Minutes),
+                "(UTC) Coordinated Universal Time",    
+            {
+                requiredAttendees: If(gen_atten,TextInputCanvas1.Value,!gen_atten,TextInputCanvas1.Value),
+                body: TextInput9_1.Text,
+                location: TextInput5_1.Text,
+                responseRequested: Checkbox1_1.Value
+            }
+            )
+        Size: =15
+        Text: ="Send Invite"
+        X: =1122
+        Y: =671
+        ZIndex: =4
+
+    TextInput5_1 As text:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: =ComboBox4_1.Selected.Location
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        HintText: ="Add location"
+        HoverBorderColor: =RGBA(0, 18, 107, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(186, 202, 226, 1)
+        Size: =13
+        X: =463
+        Y: =671
+        ZIndex: =5
+
+    TextInput9_1 As text:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Height: =251
+        HintText: ="Meeting content"
+        HoverBorderColor: =RGBA(0, 18, 107, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(186, 202, 226, 1)
+        Mode: =TextMode.MultiLine
+        Size: =13
+        X: =962
+        Y: =293
+        ZIndex: =6
+
+    Checkbox1_1 As checkbox:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        CheckboxBorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Default: =true
+        DisplayMode: =DisplayMode.View
+        HoverColor: =RGBA(0, 18, 107, 1)
+        Size: =13
+        Text: ="Get Receipts"
+        X: =962
+        Y: =544
+        ZIndex: =7
+
+    Label19_1 As label:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =42
+        Size: =13
+        Text: ="Required Attendees"
+        Width: =184
+        X: =60
+        Y: =225
+        ZIndex: =8
+
+    DatePicker1_2 As datepicker:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        CalendarHeaderFill: =RGBA(56, 96, 178, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DefaultDate: =ComboBox4_1.Selected.StartDate
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        HoverDateFill: =RGBA(186, 202, 226, 1)
+        IconBackground: =RGBA(56, 96, 178, 1)
+        SelectedDateFill: =RGBA(56, 96, 178, 1)
+        X: =463
+        Y: =390
+        ZIndex: =9
+
+    Label21_1 As label:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Start Date"
+        X: =463
+        Y: =350
+        ZIndex: =10
+
+    Label23_1 As label:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Start Time"
+        X: =463
+        Y: =444
+        ZIndex: =11
+
+    Label24_1 As label:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Duration in Minutes"
+        Width: =206
+        X: =463
+        Y: =530
+        ZIndex: =12
+
+    Label25_1 As label:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Meeting Body"
+        X: =962
+        Y: =244
+        ZIndex: =13
+
+    Label26_1 As label:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Size: =13
+        Text: ="Meeting Location"
+        X: =463
+        Y: =631
+        ZIndex: =14
+
+    TextInput10_1 As text:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        Default: |-
+            =If(!IsEmpty(ComboBox4_1.SelectedItems),
+                DateDiff(
+                DateTimeValue(DatePicker1_2.SelectedDate & " " & TextCanvas2.Text & ":" & TextCanvas1.Text),
+                DateTimeValue(DatePicker1_2.SelectedDate & " " & If(Hour(ComboBox4_1.Selected.EndTime)<10,Concatenate("0",Text(Hour(ComboBox4_1.Selected.EndTime))),Text(Hour(ComboBox4_1.Selected.EndTime))) & ":" & If(Minute(ComboBox4_1.Selected.EndTime)<10,Concatenate("0",Text(Minute(ComboBox4_1.Selected.EndTime)))))
+                ,TimeUnit.Minutes))
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 18, 107, 1)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(186, 202, 226, 1)
+        Size: =13
+        X: =463
+        Y: =575
+        ZIndex: =15
+
+    Button3_2 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(56, 96, 178, 1)
+        FontWeight: =FontWeight.Semibold
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(56, 96, 178, 1), -20%)
+        OnSelect: =Set(gen_atten,true)
+        Size: =15
+        Text: ="Generate Emails"
+        Width: =170
+        X: =60
+        Y: =591
+        ZIndex: =16
+
+    TextCanvas1 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: =If(Minute(ComboBox4_1.Selected.StartTime)<10,Concatenate("0",Text(Minute(ComboBox4_1.Selected.StartTime))),Text(Minute(ComboBox4_1.Selected.StartTime)))
+        Width: =96
+        X: =613
+        Y: =484
+        ZIndex: =17
+
+    TextCanvas2 As Text:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Text: =If(Hour(ComboBox4_1.Selected.StartTime)<10,Concatenate("0",Text(Hour(ComboBox4_1.Selected.StartTime))),Text(Hour(ComboBox4_1.Selected.StartTime)))
+        Width: =96
+        X: =463
+        Y: =484
+        ZIndex: =18
+
+    "TextInputCanvas1 As 'Text input'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =248
+        Mode: ='TextInputCanvas.Mode'.Multiline
+        Placeholder: =""
+        Value: =If(gen_atten,Concat(Filter(AttendeeTables,EventsID=ComboBox4_1.Selected.EventsID) As EventAttendees,LookUp(ACTDatabaseContacts,ID=EventAttendees.ID,Email),";"))
+        Width: =341
+        X: =60
+        Y: =313
+        ZIndex: =19
+
+    HeaderContainer4_9 As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(0, 120, 212, 1)
+        Height: =85
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1335
+        X: =16
+        Y: =16
+        ZIndex: =21
+
+        Icon11_8 As icon.BackArrow:
+            AlignInContainer: =AlignInContainer.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(245, 245, 245, 1)
+            DisabledColor: =RGBA(225, 223, 221, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =50
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(16, 110, 190, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.BackArrow
+            OnSelect: =Back(ScreenTransition.Fade)
+            PaddingBottom: =5
+            PaddingLeft: =5
+            PaddingRight: =5
+            PaddingTop: =5
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =RGBA(16, 110, 190, 1)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            ZIndex: =1
+
+        Label8_8 As label:
+            AlignInContainer: =AlignInContainer.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(161, 159, 157, 1)
+            FillPortions: =1
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Size: =16
+            Text: ="WAMSI - Home"
+            ZIndex: =2
+
+        Icon1_6 As icon.Home:
+            AlignInContainer: =AlignInContainer.End
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(245, 245, 245, 1)
+            DisabledColor: =RGBA(225, 223, 221, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =40
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(16, 110, 190, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Home
+            OnSelect: =Navigate(Home,ScreenTransition.Fade)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =RGBA(16, 110, 190, 1)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            ZIndex: =3
+
+    Label1 As label:
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =46
+        Size: =10
+        Text: |-
+            ="Note: Additional emails needs a ; between emails with no spaces"
+        Width: =341
+        X: =60
+        Y: =267
+        ZIndex: =22
+

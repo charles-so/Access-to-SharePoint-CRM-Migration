@@ -1,0 +1,1086 @@
+"Reports As screen.'autoLayout_Sidebar_ver1.0'":
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+    OnVisible: |-
+        =Clear(SelectedCompanies);
+        Clear(SelectedColumns);
+
+    ScreenContainer4_5 As groupContainer.verticalAutoLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(245, 245, 245, 1)
+        Height: =Parent.Height
+        LayoutAlignItems: =LayoutAlignItems.Stretch
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutGap: =16
+        LayoutMode: =LayoutMode.Auto
+        PaddingBottom: =16
+        PaddingLeft: =16
+        PaddingRight: =16
+        PaddingTop: =16
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =Parent.Width
+        ZIndex: =1
+
+        HeaderContainer4_13 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Fill: =RGBA(0, 120, 212, 1)
+            FillPortions: =0
+            Height: =75
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            ZIndex: =1
+
+            Icon11_12 As icon.BackArrow:
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                DisabledColor: =RGBA(225, 223, 221, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =50
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(16, 110, 190, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.BackArrow
+                OnSelect: =Back(ScreenTransition.Fade)
+                PaddingBottom: =5
+                PaddingLeft: =5
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =RGBA(16, 110, 190, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                ZIndex: =1
+
+            Label8_12 As label:
+                AlignInContainer: =AlignInContainer.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FillPortions: =1
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Size: =16
+                Text: ="WAMSI - Report Generator"
+                ZIndex: =2
+
+            Icon1_10 As icon.Home:
+                AlignInContainer: =AlignInContainer.End
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(245, 245, 245, 1)
+                DisabledColor: =RGBA(225, 223, 221, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =40
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(16, 110, 190, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.Home
+                OnSelect: =Navigate(Home,ScreenTransition.Fade)
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =RGBA(16, 110, 190, 1)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                ZIndex: =3
+
+        Container11 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            FillPortions: =0
+            Height: =50
+            LayoutGap: =50
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            ZIndex: =2
+
+            Dropdown1 As dropdown:
+                BorderColor: =RGBA(245, 245, 245, 1)
+                ChevronBackground: =RGBA(245, 245, 245, 1)
+                ChevronDisabledBackground: =RGBA(242, 242, 241, 0)
+                ChevronDisabledFill: =RGBA(161, 159, 157, 1)
+                ChevronFill: =RGBA(50, 49, 48, 1)
+                ChevronHoverBackground: =RGBA(245, 245, 245, 1)
+                ChevronHoverFill: =RGBA(50, 49, 48, 1)
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                DisabledFill: =RGBA(242, 242, 241, 0)
+                Fill: =RGBA(245, 245, 245, 1)
+                FillPortions: =1
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =RGBA(16, 110, 190, 1)
+                HoverColor: =RGBA(50, 49, 48, 1)
+                HoverFill: =RGBA(245, 245, 245, 1)
+                Items: =Events.EventName
+                OnChange: =Clear(SelectedCompanies);
+                PaddingBottom: =5
+                PaddingLeft: =12
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedBorderColor: =RGBA(16, 110, 190, 1)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                SelectionColor: =RGBA(50, 49, 48, 1)
+                SelectionFill: =RGBA(0, 120, 212, 1)
+                Size: =13
+                ZIndex: =1
+
+            Button1_1 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                DisabledFill: =RGBA(242, 242, 241, 0)
+                Fill: =RGBA(0, 120, 212, 1)
+                FillPortions: =1
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 110, 190, 1)
+                OnSelect: |-
+                    =Set(
+                        selectedEventsID, 
+                        LookUp(Events, EventName = Dropdown1.Selected.EventName).EventsID
+                    );
+                    
+                    Set(
+                        varFileLink, 
+                        ExportToExcel.Run(
+                            JSON(
+                                AddColumns(
+                                    Filter(AttendeeTables, EventsID = selectedEventsID And ID in SelectedCompanies.ID).ID As ContactsID,
+                                    
+                                    // ACT
+                                    "Company", If("Company" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Company), Blank()),
+                                    "Address1", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Address1), Blank()),
+                                    "Address2", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Address2), Blank()),
+                                    "Address3", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Address3), Blank()),
+                                    "Address4", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Address4), Blank()),
+                                    "City", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,City), Blank()),
+                                    "City2", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,City2), Blank()),
+                                    "Country", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Country), Blank()),
+                                    "State", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,State), Blank()),
+                                    "State2", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,State2), Blank()),
+                                    "Postcode", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Postcode), Blank()),
+                                    "Postcode2", If("Address" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Postcode2), Blank()),
+                                    "Department", If("Department" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Department), Blank()),
+                                    "NamePrefix", If("Name" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,NamePrefix), Blank()),
+                                    "Firstname", If("Name" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Firstname), Blank()),
+                                    "Surname", If("Name" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Surname), Blank()),
+                                    "Email", If("Email" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Email), Blank()),
+                                    "Personal Email", If("Email" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,PersonalEmail), Blank()),
+                                    "Fax Phone", If("Phone" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,FaxPhone), Blank()),
+                                    "Alt Phone", If("Phone" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,AltPhone), Blank()),
+                                    "Mobile Phone", If("Phone" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,MobilePhone), Blank()),
+                                    "Groups", If("Groups" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Group), Blank()),
+                                    "Circulate", If("Circulate" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Circulate), Blank()),
+                                    "Spouse", If("Spouse" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Spouse), Blank()),
+                                    "Website", If("Website" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Website), Blank()),
+                                    "Note", If("Note" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Notes), Blank()),
+                                    "PA", If("PA" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,PA), Blank()),
+                                    "Alt", If("Others" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,Alt), Blank()),
+                                    "ID/Status", If("Others" in SelectedColumns, LookUp(ACTDatabaseContacts, ID=ContactsID.ID,'ID/Status'), Blank()),
+                                    
+                                    // Attendees
+                                    "Event Name", If("Event Name" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,EventName), Blank()),
+                                    "Accepted ", If("Accepted/Declined" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,Accepted), Blank()),
+                                    "Declined ", If("Accepted/Declined" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,Declined), Blank()),
+                                    "Attended ", If("Attended" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,Attended), Blank()),
+                                    "Speaker ", If("Speaker" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,Speaker), Blank()),
+                                    "Subject ", If("Subject" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,Subject), Blank()),
+                                    "Presentation ", If("Presentation" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,Presentation), Blank()),
+                                    "Day ", If("Date/Time" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,Day), Blank()),
+                                    "StartTalkTime ", If("Date/Time" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,StartTalkTime), Blank()),
+                                    "EndTalkTime ", If("Date/Time" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,EndTalkTime), Blank()),
+                                    "Extra ", If("Extra" in SelectedColumns, LookUp(AttendeeTables, EventsID=selectedEventsID,Extra), Blank()),
+                                    "Diet ", LookUp(DietTables, DietID = LookUp(AttendeeTables, EventsID=selectedEventsID).Diet).Diet)
+                    
+                                    ),
+                                JSONFormat.IncludeBinaryData & JSONFormat.IgnoreUnsupportedTypes
+                            )
+                        ).filelink
+                    );
+                    
+                    Launch(varFileLink);
+                PressedBorderColor: =RGBA(0, 69, 120, 1)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(16, 110, 190, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Export to Excel"
+                ZIndex: =2
+
+        Container12 As groupContainer.horizontalAutoLayoutContainer:
+            DropShadow: =DropShadow.Light
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            ZIndex: =4
+
+            "Gallery6_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+                BorderColor: =RGBA(245, 245, 245, 1)
+                DelayItemLoading: =true
+                Items: =Filter(ACTDatabaseContacts, ID in Filter(AttendeeTables, EventsID = LookUp(Events, EventName = Dropdown1.Selected.EventName).EventsID).ID)
+                Layout: =Layout.Vertical
+                LayoutMinHeight: =287
+                LayoutMinWidth: =320
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplatePadding: =0
+                TemplateSize: =104
+                ZIndex: =1
+
+                Title6_1 As label:
+                    Color: =RGBA(50, 49, 48, 1)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =12
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Text: =ThisItem.Company
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Parent.TemplateWidth - 173
+                    X: =103
+                    Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle7_1.Size * 1.8)) / 2
+                    ZIndex: =2
+
+                Subtitle7_1 As label:
+                    Color: =RGBA(96, 94, 92, 1)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                    Height: =Self.Size * 1.8
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =0
+                    PaddingLeft: =12
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =12
+                    Text: =ThisItem.Group
+                    VerticalAlign: =VerticalAlign.Top
+                    Width: =Title6_1.Width
+                    X: =Title6_1.X
+                    Y: =Title6_1.Y + Title6_1.Height
+                    ZIndex: =3
+
+                NextArrow4_1 As icon.ChevronRight:
+                    AccessibleLabel: =Self.Tooltip
+                    Color: =RGBA(166, 166, 166, 1)
+                    Height: =50
+                    Icon: =Icon.ChevronRight
+                    OnSelect: =Select(Parent)
+                    PaddingBottom: =16
+                    PaddingLeft: =16
+                    PaddingRight: =16
+                    PaddingTop: =16
+                    Tooltip: ="View item details"
+                    Width: =50
+                    X: =Parent.TemplateWidth - Self.Width - 12
+                    Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                    ZIndex: =4
+
+                Separator10_1 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Height: =8
+                    OnSelect: =Select(Parent)
+                    Width: =Parent.TemplateWidth
+                    Y: =Parent.TemplateHeight - Self.Height
+                    ZIndex: =5
+
+                Rectangle7_1 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    Fill: =RGBA(0, 120, 212, 1)
+                    Height: =Parent.TemplateHeight - Separator10_1.Height
+                    OnSelect: =Select(Parent)
+                    Visible: =ThisItem.IsSelected
+                    Width: =4
+                    ZIndex: =6
+
+                Checkbox3 As checkbox:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                    CheckmarkFill: =RGBA(0, 120, 212, 1)
+                    Color: =RGBA(50, 49, 48, 1)
+                    Default: =CheckboxAll
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(161, 159, 157, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =RGBA(50, 49, 48, 1)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    OnCheck: |-
+                        =Collect(SelectedCompanies, {ID: ThisItem.ID})
+                    OnSelect: =Select(Parent)
+                    OnUncheck: =Remove(SelectedCompanies, LookUp(SelectedCompanies, ID = ThisItem.ID))
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =RGBA(50, 49, 48, 1)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Size: =13
+                    Text: =
+                    X: =35
+                    Y: =24
+                    ZIndex: =7
+
+            Container1 As groupContainer.verticalAutoLayoutContainer:
+                DropShadow: =DropShadow.Light
+                LayoutDirection: =LayoutDirection.Vertical
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =4
+                RadiusBottomRight: =4
+                RadiusTopLeft: =4
+                RadiusTopRight: =4
+                ZIndex: =2
+
+                Container8 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =1
+
+                    Checkbox4_1 As checkbox:
+                        AlignInContainer: =AlignInContainer.Start
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FillPortions: =1
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: |-
+                            =Clear(SelectedCompanies);
+                            Collect(SelectedCompanies, Gallery6_1.AllItems);
+                            UpdateContext({CheckboxAll: true});
+                        OnUncheck: |-
+                            =Clear(SelectedCompanies);
+                            UpdateContext({CheckboxAll: false});
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Check all attendees"
+                        ZIndex: =1
+
+                    Label1_2 As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        Size: =13
+                        Text: =Concat(SelectedCompanies, ID & ", ")
+                        ZIndex: =2
+
+                    Label1_4 As label:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        Size: =13
+                        Text: =Concat(SelectedColumns, Value & ", ")
+                        ZIndex: =3
+
+                Container8_2 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =2
+
+                    Checkbox4_3 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Company"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_19 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Website"
+                        Width: =200
+                        ZIndex: =5
+
+                    Checkbox4_27 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Extra"
+                        Width: =200
+                        ZIndex: =6
+
+                Container8_3 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =3
+
+                    Checkbox4_4 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Address"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_14 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Note"
+                        Width: =200
+                        ZIndex: =4
+
+                    Checkbox4_28 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Diet"
+                        Width: =200
+                        ZIndex: =5
+
+                Container8_6 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =4
+
+                    Checkbox4_7 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Department"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_15 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="PA"
+                        Width: =200
+                        ZIndex: =4
+
+                Container8_10 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =5
+
+                    Checkbox4_11 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Name"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_17 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Event Name"
+                        Width: =200
+                        ZIndex: =3
+
+                Container8_7 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =6
+
+                    Checkbox4_8 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Email"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_20 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Accepted/Declined"
+                        Width: =200
+                        ZIndex: =2
+
+                Container8_12 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =7
+
+                    Checkbox4_13 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Phone"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_23 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Attended"
+                        Width: =200
+                        ZIndex: =2
+
+                Container8_15 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =8
+
+                    Checkbox4_16 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Mobile"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_22 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Speaker"
+                        Width: =200
+                        ZIndex: =2
+
+                Container8_17 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =9
+
+                    Checkbox4_18 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Group"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_24 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Subject"
+                        Width: =200
+                        ZIndex: =2
+
+                Container8_9 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =10
+
+                    Checkbox4_10 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Circulate"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_25 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Presentation"
+                        Width: =200
+                        ZIndex: =2
+
+                Container8_11 As groupContainer.horizontalAutoLayoutContainer:
+                    DropShadow: =DropShadow.Light
+                    Height: =50
+                    LayoutMinHeight: =50
+                    LayoutMinWidth: =250
+                    LayoutMode: =LayoutMode.Auto
+                    RadiusBottomLeft: =4
+                    RadiusBottomRight: =4
+                    RadiusTopLeft: =4
+                    RadiusTopRight: =4
+                    ZIndex: =11
+
+                    Checkbox4_12 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Spouse"
+                        Width: =200
+                        ZIndex: =1
+
+                    Checkbox4_26 As checkbox:
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        CheckboxBorderColor: =RGBA(96, 94, 92, 1)
+                        CheckmarkFill: =RGBA(0, 120, 212, 1)
+                        Color: =RGBA(50, 49, 48, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        DisabledColor: =RGBA(161, 159, 157, 1)
+                        FocusedBorderThickness: =4
+                        Font: =Font.'Segoe UI'
+                        HoverBorderColor: =RGBA(0, 0, 0, 0)
+                        HoverColor: =RGBA(50, 49, 48, 1)
+                        HoverFill: =RGBA(0, 0, 0, 0)
+                        OnCheck: =Collect(SelectedColumns, Self.Text)
+                        OnUncheck: =Remove(SelectedColumns, LookUp(SelectedColumns, Value = Self.Text))
+                        PressedBorderColor: =RGBA(0, 0, 0, 0)
+                        PressedColor: =RGBA(50, 49, 48, 1)
+                        PressedFill: =RGBA(0, 0, 0, 0)
+                        Size: =13
+                        Text: ="Date/Time"
+                        Width: =200
+                        ZIndex: =2
+

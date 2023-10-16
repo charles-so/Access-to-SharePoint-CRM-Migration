@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr68c_diettables",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr68c_diettable",
+    "MaxGetRowsCount": 500,
+    "Name": "DietTables",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr68c_diet": "Diet",
+      "cr68c_dietid": "DietID",
+      "cr68c_diettable_AsyncOperations": "System Jobs",
+      "cr68c_diettable_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr68c_diettable_DuplicateBaseRecord": "Duplicate Records (cr68c_diettable_DuplicateBaseRecord)",
+      "cr68c_diettable_DuplicateMatchingRecord": "Duplicate Records (cr68c_diettable_DuplicateMatchingRecord)",
+      "cr68c_diettable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr68c_diettable_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr68c_diettable_ProcessSession": "Process Sessions",
+      "cr68c_diettable_SyncErrors": "Sync Errors",
+      "cr68c_diettableid": "DietTable",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "DietTables",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "DietTables (Views)",
+    "Name": "_cr68c_diettable_views",
+    "RelatedEntityName": "DietTables",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "09af2629-6129-4e98-b3f6-1e6ab5e461ba": "DietTable Lookup View",
+      "87d71678-35c0-46ce-9b65-96bd9f52f0cb": "Active DietTables",
+      "b58f5d1e-f3cb-4abe-8233-85cd6669eb54": "DietTable Associated View",
+      "c7714da6-662f-4fcb-bb6e-06bd05132bb1": "DietTable Advanced Find View",
+      "ec08ee5b-dbc5-4208-b681-da9e77a0af40": "Inactive DietTables"
+    }
+  },
+  {
+    "DisplayName": "Status (DietTables)",
+    "Name": "cr68c_diettable_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "DietTables"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "DietTables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (DietTables)",
+    "Name": "cr68c_diettable_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "DietTables"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "DietTables",
+    "Type": "OptionSetInfo"
+  }
+]
