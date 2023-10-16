@@ -11,7 +11,7 @@
     - [Using Microsoft Calender with PowerApps](https://www.youtube.com/watch?v=NgYrxq9biFU)
 
 ## Report Generation
-* [ ] Generate report for an events
+* [x] Generate report for an events
 
 ## Real Data Migration
 * [x] Data Cleaning: Match MS Access data to Dataverse structure
