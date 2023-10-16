@@ -16,13 +16,13 @@
 ## Real Data Migration
 * [x] Data Cleaning: Match MS Access data to Dataverse structure
 * [x] Data ETL and integration: export to Excel and load into powerApp
-* [ ] ACT Contacts table needs to be reuploaded 
+* [x] ACT Contacts table needs to be reuploaded 
 
 ## Documentation
 * [ ] User manual
 * [x] Set up instructions
 * [x] (not urgent) Retrospective
 ### Dataverse
-* [ ] ACT Contacts Database tables needs be uploaded
+* [x] ACT Contacts Database tables needs be uploaded
 * [ ] Need to change the name of the tables referenced in the app so the location isn't part of the variable name
 * [ ] Change the Outlook calender "" text
