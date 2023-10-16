@@ -1,0 +1,941 @@
+commit 06946a3928db8e8219c07c08eee6c5de2bc010b4
+Merge: 3b6391a f268c1f
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Mon Oct 16 15:00:21 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/CITS3200-Team-29
+
+commit 3b6391ae9832ded3ce065d7621b9cc978545652d
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Mon Oct 16 15:00:18 2023 +0800
+
+    Commit log
+
+commit f268c1f41eb80113b83f2e08f8150e549a7ca9b6
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Mon Oct 16 14:26:11 2023 +0800
+
+    Final Version User Manual - Set up Instructions
+
+commit fb1521b166e911e30155f78c893c5132316c315b
+Author: Charles So <charleso@Charless-Air.modem>
+Date:   Mon Oct 16 14:13:05 2023 +0800
+
+    checked box on report
+
+commit a5332924fc1c5224616924c4f9c68228b0aaa363
+Author: Finn <22975893@student.uwa.edu.au>
+Date:   Mon Oct 16 04:15:39 2023 +0000
+
+    Commit
+
+commit d77cd8b4dc416e86bfa0fd0e7d2b56f13a2d6941
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Mon Oct 16 11:29:22 2023 +0800
+
+    Updating checklist
+
+commit 106cc2a3f19432a123a03b17ea4d96c9fa422506
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sat Oct 14 23:14:41 2023 +0800
+
+    Updating tasks
+
+commit b92b7a20a9df389d496dbf543012ad1dadda5dc5
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sat Oct 14 22:34:04 2023 +0800
+
+    Changing file extension
+
+commit 1a4c55e9f92a30277f74f317772991ff01c0bcd9
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sat Oct 14 22:31:37 2023 +0800
+
+    Set up instructions documentation
+
+commit bdc6d8e985f8a00c9261a534c36c8824ed89007b
+Author: developing-ar <noelis.roy@gmail.com>
+Date:   Sat Oct 14 13:40:57 2023 +0800
+
+    added todo for project
+
+commit 67b8ec73d393b342c01c6a8c37968e12dcb3d199
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Oct 8 07:53:31 2023 +0000
+
+    Update database description.md
+
+commit 516c542353d86a5f0196f3b686f3c2f3f166d8ef
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Oct 8 15:52:01 2023 +0800
+
+    Add files via upload
+
+commit fdf52014023e99dcff8635beab90e9b64ef2def4
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Oct 8 07:50:49 2023 +0000
+
+    Create database description.md
+
+commit df95c2a9526f009a34f30ba8119b91b4133a7135
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Oct 1 05:57:12 2023 +0800
+
+    resources links for PowerApp Outlook integ.
+
+commit 37a06922c302e971543aefb1abb9496af68134de
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Fri Sep 29 17:53:10 2023 +0000
+
+    Update SharePoint Intergration Resources.md
+    
+    Added new content
+
+commit ce599d747351929fc6fa1b3cfb61612664f9ae3b
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Wed Sep 27 13:06:09 2023 +0800
+
+    Update SharePoint Intergration Resources.md
+
+commit cf0a8034c241be93737a15a5e543471fe5aa935c
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Wed Sep 27 13:04:54 2023 +0800
+
+    Create SharePoint Intergration Resources.md
+
+commit d6e46617bc48be32915d6d3c0917d783e33c3c01
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Wed Sep 27 13:01:07 2023 +0800
+
+    Delete Sprint 3
+
+commit c681d6293372d816c44d41cedb5d1fab0fce82db
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Wed Sep 27 12:55:02 2023 +0800
+
+    Create Sprint 3
+
+commit a950faec16a38931cc69992655f197e202090b57
+Author: Charles So <charleso@Charless-Air.modem>
+Date:   Wed Sep 20 11:45:01 2023 +0800
+
+    tidy up
+
+commit e3fa16037dc6e47b8a11241833cc001614c9339b
+Author: Charles So <charleso@Charless-Air.modem>
+Date:   Tue Sep 19 13:01:40 2023 +0800
+
+    Sprint2/recaps & goals
+
+commit 3b4aec33e445833d9d20f216690c9a7987188c31
+Merge: 816def4 7f4fff4
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Mon Sep 18 16:49:30 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/CITS3200-Team-29
+
+commit 816def46837f94ef31608f6c11494ec461743ecf
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Mon Sep 18 16:49:20 2023 +0800
+
+    Update to stories based on group feedback
+
+commit 7f4fff4cf667e3ea88e10e508e208f003842cbe2
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Sep 17 22:36:56 2023 +0800
+
+    Reorganised dir structure
+
+commit 9fba3dc718af12309cc41545ca8a86f018272b5f
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Sep 17 22:26:33 2023 +0800
+
+    Added all data tables
+
+commit 8fecaea9a8045842814c8bf5b8816ae01e49f2d0
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Sep 17 22:02:49 2023 +0800
+
+    Added events dummy data
+
+commit 47c5861573038ca473395a43e6f25df5b78d9276
+Merge: a94ee08 aea6037
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Sep 17 19:57:40 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/Access-to-SharePoint-CRM-Migration
+
+commit a94ee0864ef522a804b588680b511de984c80eb4
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Sep 17 19:42:43 2023 +0800
+
+    Editted dummies
+
+commit aea6037eee552a7f939ad1dc95c81cf023fc8371
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Sun Sep 17 09:34:43 2023 +0800
+
+    added excel dummy
+
+commit 7b6d36609f3374ac7fbe1513ebb9e6dae97b35c0
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sat Sep 16 17:57:07 2023 +0800
+
+    Added steps for uploading dataverse tables and editing the power app
+
+commit ca4723e82a58d4cc56fe3633427d7ce7e4bcb7d5
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sat Sep 16 17:56:08 2023 +0800
+
+    Added ACT_contacts db as excel file
+
+commit ad1ed157d9fccf3c0c59625b94331b45ef0d611f
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Sat Sep 16 13:59:25 2023 +0800
+
+    dummy excel
+
+commit 3ac2dab685f9bb0d8eabaa684b3ef0b8c547c59d
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Fri Sep 15 15:39:14 2023 +0800
+
+    Updates to User stories
+
+commit c28b49fd190fdbb4f8ce109f274cd75f7587575c
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Fri Sep 15 11:21:54 2023 +0800
+
+    Stories for Sprint 2
+
+commit db5426a41f9fdc2842c927feb970faf3e394231d
+Author: developing-ar <noelis.roy@gmail.com>
+Date:   Thu Sep 14 15:23:33 2023 +0800
+
+    added plan of action
+
+commit c0a3d55bd544927bbfb3a0dd488075cc1a9f1d75
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Sep 3 16:06:45 2023 +0800
+
+    changed links txt file to md file
+
+commit 065dafd8f426d6e86ba3e1962f0ece9f2267456e
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Sun Sep 3 15:26:52 2023 +0800
+
+    Update Geraldines_Pros_and_Cons.md
+
+commit 435e35476288a581b1201d8f8f86761ed26a5d56
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Sep 3 14:41:07 2023 +0800
+
+    Update
+
+commit 34098d2d8b505ffccef5a2701bb78acac868b337
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Sep 3 14:39:34 2023 +0800
+
+    Create Sultans_pros_and_cons.md
+
+commit 24962868bd2d1dffe2f4b1c0da5644da9a6ef66f
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Sun Sep 3 14:16:00 2023 +0800
+
+    Update Geraldines_Pros_and_Cons.md
+    
+    testing tables
+
+commit 9576c46669070354535dc437810867842a27c4db
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Sun Sep 3 14:00:53 2023 +0800
+
+    Create Geraldines_Pros_and_Cons.md
+
+commit d75087cc1b92d82088b8816b30e6c6055b82f7a2
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sat Sep 2 02:43:31 2023 +0800
+
+    Updated to include and remove values for dummy data
+    
+    - commented out Responses and Reports tables
+    - modified key values for "autokey" reference (change?)
+    - added dummy data for Contacts table for reference
+
+commit c7e08884b1b19ecb77b05154e51c45d7d99bce9c
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sat Sep 2 02:42:13 2023 +0800
+
+    Updated script with db schema (+relations)
+    
+    Representative sql database (with relationships) to create db; ready for integration trials.
+
+commit 89c80af915d5c215473abca7b69263e237bb5065
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Fri Sep 1 08:46:44 2023 +0800
+
+    added dummies script
+
+commit cb38bcf5114953b02e6bcd2d2fe5d262fe5d8688
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Thu Aug 31 23:33:02 2023 +0800
+
+    some fixes
+
+commit f8758ae11ed87f28fa1413151aec2a65f42d381f
+Author: developing-ar <noelis.roy@gmail.com>
+Date:   Tue Aug 29 14:45:03 2023 +0800
+
+    added links to put apps in SharePoint
+
+commit 5c71d58c60bcb2450434e6739fc773b3679d6d70
+Merge: 1453adc 5c30850
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Mon Aug 28 13:28:24 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/CITS3200-Team-29
+
+commit 1453adcb60f6b74e9489033bca9abd4c2dfb6ab2
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Mon Aug 28 13:28:18 2023 +0800
+
+    Update CRM research
+
+commit 5c308506bd5ebafc4286dd5c1687b62820d83023
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Sun Aug 27 13:29:33 2023 +0800
+
+    Create Geraldines_CRM.md
+    
+    Pros and Cons of different CRMs
+
+commit 333638a802318643fbd0035ced299c480f4407a2
+Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+Date:   Sun Aug 27 13:27:48 2023 +0800
+
+    Add files via upload
+
+commit c03f8358072451334cefb99423756d6736cf4c14
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Sun Aug 27 00:13:02 2023 +0800
+
+    Update BCS.md
+
+commit e333a36381399ce2633d072192ae25e874dae4cd
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Sun Aug 27 00:11:08 2023 +0800
+
+    Create BCS.md
+    
+    Researched BCS more in-depth
+
+commit 492aa27ea7b19c42cae9917970ccb66120967ef6
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sat Aug 26 19:31:46 2023 +0800
+
+    Create Sprint 2 deliverables details.md
+
+commit 2bcc78c5326347a70112a4e7058937828df3bfb2
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sat Aug 26 19:18:36 2023 +0800
+
+    Create Sultans_CRM.md
+
+commit 842afd946ec94338f36c838867c7748d0d6590bf
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Sat Aug 26 18:03:16 2023 +0800
+
+    added open source crm choices
+
+commit 5219c3b1b1c730b6f6a6b212f231292b7e5fa233
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Sat Aug 26 16:31:13 2023 +0800
+
+    added dummies
+
+commit 67febd6730b31160ac9a886d44d7c4038a0a8adc
+Merge: b044a5d 4d1a1c2
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sat Aug 26 10:14:08 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/CITS3200-Team-29
+
+commit b044a5d0a23234d5385d4e88f5157740dcf76116
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sat Aug 26 10:14:02 2023 +0800
+
+    Update
+
+commit 4d1a1c294ef393034c5d0da5549a1e28c8cdd308
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Fri Aug 25 23:05:40 2023 +0800
+
+    rm dummy.py
+
+commit c2989ccb470242fc7e73ba543430482924896f27
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Fri Aug 25 00:08:30 2023 +0800
+
+    Added script to create SQL database
+    
+    *Need to add script sections for*:
+            'ACT Database Contacts'
+            Table relationships
+            Bulk insert of data (dummy/real)
+
+commit 95bcfcb25420112a0c04f840a239a98c329a3ee6
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Fri Aug 25 00:01:11 2023 +0800
+
+    Added relationships to dummy database
+    
+    Dummy data can be added
+
+commit 91862986ab00e927b701ebf049f50ea05ffef1b5
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Fri Aug 25 00:00:38 2023 +0800
+
+    Changed location of prototyping folder
+
+commit e199fe343eaf8301b8b17f571f76d65f4ec32d9f
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Thu Aug 24 18:24:23 2023 +0800
+
+    changed location of dummy db
+
+commit 90d98947994d13254130fd9250431081d96f81b8
+Merge: c062bf0 62ea279
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Thu Aug 24 18:23:00 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/Access-to-SharePoint-CRM-Migration
+
+commit c062bf08ea7c67bbf99a272851fb84c30bcd6c1c
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Thu Aug 24 18:22:42 2023 +0800
+
+    Updated dummy db with actual schema
+    
+    Need to add relationships
+
+commit 62ea27961f15f154c0484b790dade653b0226d15
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Thu Aug 24 18:19:24 2023 +0800
+
+    added project overview
+
+commit 876b83a003e6b66f429a88b7d70d41109f45ea49
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Thu Aug 24 18:07:57 2023 +0800
+
+    put dummy data in sprint 2 prototype
+
+commit 18358a817e047e98a4829deeaf16dc7f02d22431
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Thu Aug 24 18:03:30 2023 +0800
+
+    Add .DS_Store to .gitignore
+
+commit c51ffb3bdbd44bd4fb43ac12b1ceefcdbcbc3597
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Thu Aug 24 17:58:19 2023 +0800
+
+    Small update
+
+commit e54e57094f65eed4fdbab95110ff7e12d5e8c3d1
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Thu Aug 24 17:58:04 2023 +0800
+
+    Adding a takeaway for functionality of macros
+
+commit cc416178df8e1e9d18ee05c30a0d044571bd4758
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Thu Aug 24 17:37:57 2023 +0800
+
+    Adding sprint 2 folder
+
+commit 4cbce94bbb154ed5b227f4aa6c23fea2480fb422
+Merge: 9e1df52 a88557b
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Thu Aug 24 17:37:12 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/CITS3200-Team-29
+
+commit 9e1df5272c9d71283f87c0ec3b1c2853757d2217
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Thu Aug 24 17:37:03 2023 +0800
+
+    Adding current state file
+
+commit a88557be17a9fe5a46b1d73b5b66554ac3ca2c9d
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Thu Aug 24 17:35:06 2023 +0800
+
+    added dummy data
+
+commit 576aaa01a5f76702dd01b0c5a80601a3eaf9e9ba
+Merge: 2647d88 2f2068e
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Tue Aug 22 11:51:03 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/CITS3200-Team-29
+
+commit 2647d885d5e47ef7199174bb54ffa9d9573c833d
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Tue Aug 22 11:50:58 2023 +0800
+
+    Organising Sprint folders
+
+commit 2f2068e32e6fadb36f34ea6d7cc9e4e1defb1584
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Tue Aug 22 02:26:58 2023 +0800
+
+    integration links and options
+
+commit 456cd4614e6b03e45f514b0e4daddaa6b98d6d12
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Wed Aug 16 14:13:35 2023 +0800
+
+    finalized sprint 1
+
+commit 47b9ffb48f70b0302af5ea2803735ebebcda67e9
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Wed Aug 16 14:11:12 2023 +0800
+
+    finalized sprint 1
+
+commit 378ed238c7640e0084e798395de7880128b29303
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Wed Aug 16 14:08:12 2023 +0800
+
+    finalized sprint 1
+
+commit df5e9b7e4186deacf211bacd5b57e97aa3ba6307
+Merge: 94cff80 c7a853f
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Wed Aug 16 13:54:25 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/CITS3200-Team-29
+
+commit 94cff8053018ab6e6ea23af9e46da14b8457d9cc
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Wed Aug 16 13:54:05 2023 +0800
+
+    Update deliverable 2
+
+commit c7a853f479fb7711147ac0660de32f8ddf3a737e
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Wed Aug 16 13:03:56 2023 +0800
+
+    added resources
+
+commit 8deb39147838b385c5595747814e6b8175da8fbe
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Wed Aug 16 12:38:31 2023 +0800
+
+    Drafting final deliverables document
+
+commit ce6bd702d60035b3def891da009b206825b621e6
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Wed Aug 16 12:26:03 2023 +0800
+
+    Delete Requirements Analysis Document-29.pdf
+    
+    removed based on team manager advice
+
+commit 09989347ed6dd587b9bd2d307eb57ba029b8c1a6
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Wed Aug 16 12:24:29 2023 +0800
+
+    Final version # Requirements Analysis Document.md
+
+commit 8d18ab63e3df47beed9d27de2cb3f179661cb785
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Wed Aug 16 11:59:32 2023 +0800
+
+    Small spelling corrections
+
+commit 302de4035fb95e582446c9867474f62b0c0e74e1
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Wed Aug 16 11:53:23 2023 +0800
+
+    Adding the Sprint 1 deliverable document
+
+commit 2c37d408aa60d1427819b00b223f8e08b62929bc
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Wed Aug 16 11:36:41 2023 +0800
+
+    Updating deliverable 3
+
+commit 0632b7277672c3a4593b3359570ec2be9873b230
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Tue Aug 15 23:03:49 2023 +0800
+
+    added references
+
+commit 138909eed846ea6417867a2126875c82c99518c7
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Tue Aug 15 14:49:28 2023 +0800
+
+    Add files via upload
+
+commit e1a201db41a94de749ac85d10f51aeb0079d2399
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Tue Aug 15 11:57:53 2023 +0800
+
+    Update # Requirements Analysis Document layout.md
+    
+    updated after teams meeting with new comments and input
+
+commit ff1c07b0d3310230da1a67d32ee98598ec0e9a9d
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Tue Aug 15 11:21:32 2023 +0800
+
+    Update Deliverable 2.md
+    
+    added a disclaimer and formatting
+
+commit 558ac9a2a4c9fcba1341faa6d1416f4ceef337c0
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Tue Aug 15 11:06:47 2023 +0800
+
+    Update Deliverable 2.md
+
+commit 74d53a9949416ec8c8564c9d796f3c9103ddc47b
+Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+Date:   Tue Aug 15 11:03:28 2023 +0800
+
+    Update Deliverable 4.md
+    
+    proof reading
+
+commit f48c5b60a0c6bb09c6c65b79ff15c25d127d2f9e
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Mon Aug 14 19:17:08 2023 +0800
+
+    Update 1st version# Requirements Analysis Document layout.md
+    
+    Needs some more information will be discussed next team meeting
+
+commit 17bf2b141787b49d6a8982c81c348f6e01142ade
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Mon Aug 14 19:14:24 2023 +0800
+
+    Update 1st version # Requirements Analysis Document.md
+
+commit d158b1bdb9654e368cbdcbe4691297cdb2ee1f74
+Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+Date:   Mon Aug 14 19:13:50 2023 +0800
+
+    Upload Deliverable 4
+
+commit eab76eb2acb176294ddb31245aa120d4e1d65b06
+Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+Date:   Mon Aug 14 19:01:54 2023 +0800
+
+    Delete Deliverable 4.md
+
+commit 1ae7cf11142d6c4c1f6237269e656edb492b61c3
+Author: tstran184 <103571440+tstran184@users.noreply.github.com>
+Date:   Mon Aug 14 19:01:18 2023 +0800
+
+    Add files via upload
+
+commit e49aefe9ecfd63cc1cbd03ab2003b3e1195d5d03
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Mon Aug 14 14:25:19 2023 +0800
+
+    Update Deliverable 2.md
+    
+    tidying up #2
+
+commit 172f605a332341c30381c99e2755e7b5bf685858
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Mon Aug 14 14:13:46 2023 +0800
+
+    Update Deliverable 2.md
+    
+    tidying up
+
+commit d76e8fbbd8f94ece551ef0f849e18351d7d8d4c5
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Mon Aug 14 14:04:57 2023 +0800
+
+    Update Deliverable 2.md
+    
+    Added more CRMs (SharePoint Integration and their functionalities)
+
+commit 42c9071ce5f83ca221f62cd79eb7282865e70137
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Mon Aug 14 00:49:49 2023 +0800
+
+    Update Deliverable 2.md
+    
+    BCS Research
+
+commit c6df033b31e608c951dbddce3f55f9ac802167ca
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Mon Aug 14 00:17:46 2023 +0800
+
+    Update Deliverable 2.md
+    
+    Added Team Skill Sets
+
+commit 0c6cdc7f9e15dd2c27305fe59c62187a2e1e2cea
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Aug 13 19:22:09 2023 +0800
+
+    Update # Requirements Analysis Document layout.md
+    
+    Updated in context of databases
+
+commit dbda18d4645428dc40731fd1a681974ca7f38df9
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Aug 13 18:54:16 2023 +0800
+
+    Create # Requirements Analysis Document layout.md
+
+commit 392a3b6efb4d72b57f4adf7672dc2641a7436412
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Sun Aug 13 18:19:16 2023 +0800
+
+    removed 2 epics
+
+commit bc94d457961ae8280848b8c76e53154f48b8bff3
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Aug 13 17:47:51 2023 +0800
+
+    Update and rename Deliverable 1.md to Scope of Work(Or Epic).md
+
+commit 1e4ee56873130d8d58edcc230881a11be0abd8f4
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Aug 13 17:31:52 2023 +0800
+
+    Created a folder
+
+commit f77ff06bc2210213b76c2cef20804cf00c87d7db
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 15:44:28 2023 +0800
+
+    deleted preliminary testing doc
+
+commit ec83e42ea5ff065815b156c72a89641fff2dfef8
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 15:39:45 2023 +0800
+
+    removed signed agreement
+
+commit 199b817404b41592b052259f022f0a8fde770bc4
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 15:25:49 2023 +0800
+
+    Deleted preliminary testing report doc
+
+commit 756b8f9eb78d4dc90f90bcba177b99fca3a98b2b
+Merge: e16082f e85b94d
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 15:24:47 2023 +0800
+
+    Merge branch 'main' of https://github.com/charles-so/CITS3200-Team-29
+
+commit e16082f8e8ba2dbab568aab05946056ae8ae9e49
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 15:24:42 2023 +0800
+
+    turned preliminary test doc to md
+
+commit e85b94dd3893c10815eef2e1baf9e03fd17bd90a
+Author: de-ceased <82013834+de-ceased@users.noreply.github.com>
+Date:   Sun Aug 13 15:17:00 2023 +0800
+
+    Delete Deliverable 2 word doc
+
+commit 2a05bdb5c2c464aad7acc3faf5e857ddafc9aa81
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Sun Aug 13 15:13:56 2023 +0800
+
+    Create Deliverable 2.md
+
+commit b0dff7fa5c755433bec34c0f8198b280ec7cf218
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Sun Aug 13 15:09:32 2023 +0800
+
+    rm junks
+
+commit ddb4423d35b78c72fbd290e5888380d1d1a62a83
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Aug 13 15:06:17 2023 +0800
+
+    Delete Deliverable 1.docx
+
+commit 79f4f2cb114fe99f556fe5353b9bf5f2e4fa26fd
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Aug 13 15:06:02 2023 +0800
+
+    Rename Deliverable 1 to Deliverable 1.md
+
+commit 03d1de49705977b776dbebbd77acba4ca1cb8c77
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Sun Aug 13 15:03:31 2023 +0800
+
+    Deliverable 1
+
+commit 1fc43f0d385dd3c72d275cde33b8e6edfb0a2094
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 14:59:22 2023 +0800
+
+    removed git test file
+
+commit c9f8b15b9071aa957d3095a9b907311780cae44b
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 14:51:18 2023 +0800
+
+    removed Deliverable 5 doc
+
+commit 0557fec26ba8fa8ff73250f9f83f4e53124321cd
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 14:50:47 2023 +0800
+
+    added references doc
+
+commit bb0394187b8ab914b8802f220cb73b7b3a03283f
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 14:50:19 2023 +0800
+
+    general description of project
+
+commit 2be949ecb114aa12c409bb38716fae8f156f1f27
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Sun Aug 13 14:40:09 2023 +0800
+
+    added deliverable 5.md
+
+commit d7ecc955c06ed5ab3802a0a5de949312c404be65
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Sun Aug 13 14:17:18 2023 +0800
+
+    Create Deliverable 2 - A Skills and Resources Audit.docx
+
+commit f2e1a7dfdffb9a57426b9e278f3dff88cc568adf
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sun Aug 13 13:57:18 2023 +0800
+
+    Added Preliminary test report
+    
+    Description of test work for the migration of the database to sharepoint using a dummy MS Access database
+
+commit 4507002f4b7109c41e4b36fdfaabf7ee37c382d0
+Merge: fe4f115 5e0df01
+Author: Finn <127391035+FinnOC01@users.noreply.github.com>
+Date:   Sun Aug 13 13:45:59 2023 +0800
+
+    Merge pull request #2 from charles-so/D3
+    
+    D3
+
+commit 5e0df0156d45e7a91cc99e4de1bc4bce76cdbdc9
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sun Aug 13 13:36:10 2023 +0800
+
+    Uploading CRM database research file
+
+commit 67eba8456bc8dd0135d6478401a1fad970b7f9d6
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sun Aug 13 12:53:57 2023 +0800
+
+    Updates to risk register
+
+commit c769ec4a5c06b99aa921cb29c170f9cd50ab4a35
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sun Aug 13 12:39:45 2023 +0800
+
+    Small adjustment to risk register
+
+commit 98390950b9a27286e647e2ba5f119eaf14a220d7
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sun Aug 13 12:38:16 2023 +0800
+
+    Updating the risk register
+
+commit fe4f115b7a62802643fc8f0145ddf0f8221fdfe3
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Sun Aug 13 08:58:00 2023 +0800
+
+    added Deliverable 5
+
+commit 15fd240c1ec7317d645f015dfda9e8bbcf23e4e4
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sat Aug 12 16:15:34 2023 +0800
+
+    Creating new branch for deliverable 3
+
+commit 1875cdaf472a08667290e3e181e18ed86d70e9df
+Author: FinnOC01 <22975893@student.uwa.edu.au>
+Date:   Sat Aug 12 15:45:42 2023 +0800
+
+    First draft of deliverable 3 file
+
+commit 7253779cba50946029aa9ef248e8498d256b09d0
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Sat Aug 12 02:18:05 2023 +0800
+
+    Updated with signature added
+
+commit 5fd0b5d24f976017bbdb9d4ba68a5494229e9478
+Author: de-ceased <82013834+de-ceased@users.noreply.github.com>
+Date:   Fri Aug 11 23:20:32 2023 +0800
+
+    Update WAMSI Database Project - Confidentiality Agreement (UWA WAMSI Disclosing) - Aug-Oct2023 - group 29.pdf
+
+commit bebf205beaa9220bf4c13307d31c6930367b670b
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Fri Aug 11 22:37:45 2023 +0800
+
+    Research links for other implementations
+
+commit 6316f014d00aadfeeed390e84a481d20f9bf9d62
+Author: developing-ar <97691656+developing-ar@users.noreply.github.com>
+Date:   Fri Aug 11 22:36:38 2023 +0800
+
+    Added Dummy db for prototyping
+
+commit 43e4910d500d54d517ae3b5e460cb2c6dcbba9ec
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Fri Aug 11 17:02:01 2023 +0800
+
+    Update WAMSI Database Project - Confidentiality Agreement (UWA WAMSI Disclosing) - Aug-Oct2023 - group 29.pdf
+    
+    Added signature
+
+commit ffda9c3dd4c951189d31c36db99eb544d6763ee7
+Author: Charles So <ngolam.charles.so@gmail.com>
+Date:   Fri Aug 11 13:29:02 2023 +0800
+
+    added signature
+
+commit b53a325964f881699787cf5eb8cad203c2504834
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Wed Aug 9 15:28:53 2023 +0800
+
+    Update Deliverable 1.docx
+    
+    Updated the format to a more formal way, included more information.
+
+commit a3eae725f99f723896ac374c9d6be8333a62e4a8
+Author: salll97 <130902178+salll97@users.noreply.github.com>
+Date:   Wed Aug 9 13:36:52 2023 +0800
+
+    Scope
+    
+    scope requirements are put into bullet points.
+
+commit 7535f96571107ce6b229006af7081bb95fa05f60
+Author: de-ceased <chingeraldine828@yahoo.com>
+Date:   Tue Aug 8 11:03:27 2023 +0800
+
+    test
+
+commit 6fd7ad5f936617f14d5fe96a56e04169b156192d
+Author: Ngo Lam, Charles So <121213120+charles-so@users.noreply.github.com>
+Date:   Tue Aug 8 10:48:19 2023 +0800
+
+    Initial commit
